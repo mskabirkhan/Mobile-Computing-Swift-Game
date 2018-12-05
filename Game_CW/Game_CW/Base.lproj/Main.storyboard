@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Game_CW" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plane1.png" translatesAutoresizingMaskIntoConstraints="NO" id="KhP-OS-m6Z" customClass="Plane" customModule="Game_CW" customModuleProvider="target">
+                                <rect key="frame" x="20" y="48" width="159" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="road18.png" translatesAutoresizingMaskIntoConstraints="NO" id="yiE-sk-0uW">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree1.png" translatesAutoresizingMaskIntoConstraints="NO" id="KKE-ZT-hAX">
+                                <rect key="frame" x="0.0" y="103" width="667" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yiE-sk-0uW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="HHN-cW-JLY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yiE-sk-0uW" secondAttribute="trailing" id="NBs-fd-d7X"/>
+                            <constraint firstItem="yiE-sk-0uW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="st9-NK-2f7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yiE-sk-0uW" secondAttribute="bottom" id="xDR-Yp-QRk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="roadImage" destination="yiE-sk-0uW" id="fB5-d8-mC6"/>
+                        <outlet property="treeImage" destination="KKE-ZT-hAX" id="hIb-f6-ysq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-824.43778110944538" y="-50.399999999999999"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="plane1.png" width="126" height="74"/>
+        <image name="road18.png" width="1024" height="600"/>
+        <image name="tree1.png" width="1024" height="600"/>
+    </resources>
+</document>
