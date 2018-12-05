@@ -10,10 +10,12 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    var location = CGPoint(x: 0, y: 0)
     
     
     
     @IBOutlet weak var Plane: UIImageView!
+    
     
     @IBOutlet weak var roadImage: UIImageView!
     
@@ -21,9 +23,70 @@ class ViewController: UIViewController {
     @IBOutlet weak var treeImage: UIImageView!
     
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)  {
+        
+        let touch: UITouch! = touches.first
+        
+        location = touch.location(in: self.view)
+        
+        Plane.center = location
+        
+        
+    }
+    
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        let touch : UITouch! =  touches.first! as UITouch
+        
+        location = touch.location(in: self.view)
+        
+        Plane.center = location
+        
+        }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //Making flying crows
+        
+        
+        
+        //timer for crow
+        //Creating a new UIImageView from scratch
+        let birdView = UIImageView(image: nil)
+        
+        //Assign an image to the image view
+        birdView.image = UIImage(named: "bird1.png")
+        birdView.image = UIImage(named: "bird2.png")
+        birdView.image = UIImage(named: "bird3.png")
+        birdView.image = UIImage(named: "bird4.png")
+        birdView.image = UIImage(named: "bird5.png")
+        birdView.image = UIImage(named: "bird6.png")
+        birdView.image = UIImage(named: "bird7.png")
+        birdView.image = UIImage(named: "bird8.png")
+        birdView.image = UIImage(named: "bird9.png")
+        birdView.image = UIImage(named: "bird10.png")
+        
+        
+        
+        //Assign the size and position of the image view
+        birdView.frame = CGRect(x:500, y: 100, width: 80, height: 100)
+        
+        
+        //Add the image view to the main view
+        self.view.addSubview(birdView)
+        
+        
+        
+        
+        
+        
+        
+        // certre of plane after starting games
+        Plane.center = CGPoint(x: 70, y: 150)
+        
         //moving road array
         var imageArray: [UIImage]!
         
@@ -78,7 +141,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 
 }
 

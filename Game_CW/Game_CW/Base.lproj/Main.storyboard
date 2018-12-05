@@ -30,6 +30,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plane1.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Kd-pX-Smj">
+                                <rect key="frame" x="20" y="103" width="141" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -41,13 +45,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="Plane" destination="0Kd-pX-Smj" id="30F-GU-UHE"/>
                         <outlet property="roadImage" destination="yiE-sk-0uW" id="fB5-d8-mC6"/>
                         <outlet property="treeImage" destination="KKE-ZT-hAX" id="hIb-f6-ysq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-824.43778110944538" y="-50.399999999999999"/>
+            <point key="canvasLocation" x="-834" y="-641"/>
         </scene>
     </scenes>
     <resources>
