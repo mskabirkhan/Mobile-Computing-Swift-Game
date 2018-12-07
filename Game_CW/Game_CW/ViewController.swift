@@ -75,7 +75,7 @@ class ViewController: UIViewController, subviewDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        //planeImage.myDelegate = self
+        planeImage.myDelegate = self
         
         dynamicAnimator = UIDynamicAnimator(referenceView: self.view)
         dynamicBehavior = UIDynamicItemBehavior(items: [])
@@ -115,7 +115,7 @@ class ViewController: UIViewController, subviewDelegate {
                       UIImage(named: "road18.png")!,
                       UIImage(named: "road19.png")!,]
         
-        roadImage.image = UIImage.animatedImage(with: imageArray, duration: 4)
+        roadImage.image = UIImage.animatedImage(with: imageArray, duration: 1)
         roadImage.frame = CGRect(x:0, y:0, width: W*1, height: H*1)
         
         //moving road array
@@ -138,8 +138,8 @@ class ViewController: UIViewController, subviewDelegate {
                       UIImage(named: "tree16.png")!,
                       UIImage(named: "tree17.png")!]
         
-        treeImage.image = UIImage.animatedImage(with: imageArray2, duration: 4)
-        treeImage.frame = CGRect(x:0, y:0, width: W*1, height: H*1)
+        treeImage.image = UIImage.animatedImage(with: imageArray2, duration: 1)
+        treeImage.frame = CGRect(x:0, y:H*(-0.2), width: W*(1), height: H*1)
 
         
         imageArray3 =  [UIImage(named: "plane1.png")!,
@@ -160,8 +160,8 @@ class ViewController: UIViewController, subviewDelegate {
                         UIImage(named: "plane15.png")!]
         
         planeImage.image = UIImage.animatedImage(with: imageArray3, duration: 4)
-        planeImage.frame = CGRect(x:0, y:0, width: W*1, height: H*1)
-        
+        planeImage.frame = CGRect(x:0, y:H*(0.3), width: W*(0.2), height: H*(0.2))
+
         
         
         //Making flying crows
@@ -174,7 +174,7 @@ class ViewController: UIViewController, subviewDelegate {
         //let birdView4 = UIImageView(image:nil)
         //var imageArray4: [UIImage]!
         
-        for index in 0...7{
+        for index in 0...8{
             let delay = Double(self.birdArray[index])
             let when = DispatchTime.now() + delay
             
@@ -199,7 +199,7 @@ class ViewController: UIViewController, subviewDelegate {
         
         
         //Assign the size and position of the image view
-        birdView.image = UIImage.animatedImage(with: imageArray4, duration: 1)
+        birdView.image = UIImage.animatedImage(with: imageArray4, duration: 2)
         birdView.frame = CGRect(x:self.W, y: CGFloat(arc4random_uniform(UInt32(self.H))), width: self.W*(0.25), height: self.H*(0.25))
         
         //birdView2.image = UIImage.animatedImage(with: imageArray4, duration: 1)
