@@ -21,7 +21,7 @@ class Plane: UIImageView {
         _ = startLocation!.x - startLocation!.x
         _ = startLocation!.y - startLocation!.y
         
-        self.center = CGPoint(x: 600, y: 0)
+        self.center = CGPoint(x: 300, y: 0)
         
         
     }

@@ -30,8 +30,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plane1.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Kd-pX-Smj">
-                                <rect key="frame" x="20" y="103" width="141" height="81"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plane1.png" translatesAutoresizingMaskIntoConstraints="NO" id="ols-8a-g0J" customClass="Plane" customModule="Game_CW" customModuleProvider="target">
+                                <rect key="frame" x="20" y="48" width="95" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -45,14 +45,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="Plane" destination="0Kd-pX-Smj" id="30F-GU-UHE"/>
+                        <outlet property="planeImage" destination="ols-8a-g0J" id="HdV-4K-ZPi"/>
                         <outlet property="roadImage" destination="yiE-sk-0uW" id="fB5-d8-mC6"/>
                         <outlet property="treeImage" destination="KKE-ZT-hAX" id="hIb-f6-ysq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-834" y="-641"/>
+            <point key="canvasLocation" x="-1125.7871064467768" y="-1503.2"/>
         </scene>
     </scenes>
     <resources>
