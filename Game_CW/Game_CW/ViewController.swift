@@ -239,12 +239,56 @@ class ViewController: UIViewController, subviewDelegate {
         //self.birdDynamicItemBehaviour.addLinearVelocity(CGPoint(x: -100, y:0), for: birdView3)
         //self.birdDynamicItemBehaviour.addLinearVelocity(CGPoint(x: -100, y:0), for: birdView4)
         
-        
             }
+            
+            
         }
         
+        for index in 0...8{
+            let delay = Double(self.coinArray[index])
+            let when = DispatchTime.now() + delay
+            
+            DispatchQueue.main.asyncAfter(deadline: when){
+                let coinView = UIImageView(image:nil)
+                var imageArray5: [UIImage]
+                
+                
+                imageArray5 =  [UIImage(named: "coin.png")!]
+                
+                
+                //Assign an image to the image view
+                
+                
+                //Assign the size and position of the image view
+                coinView.image = UIImage.animatedImage(with: imageArray5, duration: 1)
+                coinView.frame = CGRect(x:self.W, y: CGFloat(arc4random_uniform(UInt32(self.H))), width: self.W*(0.10), height: self.H*(0.10))
+                
+        
+                
+                
+                //Add the image view to the main view
+                self.view.addSubview(coinView)
+            
+                
+                self.view.bringSubviewToFront(coinView)
+                
+                self.dynamicBehavior.addItem(coinView)
+                self.dynamicBehavior.addLinearVelocity(CGPoint(x: -400, y:50), for: coinView)
+                self.collisionBehaviour.addItem(coinView)
+                
+                
+                
+                
+            }
+            
+            
+        }
         
 
+        
+        
+        
+        
     }
     
     override func didReceiveMemoryWarning() {
