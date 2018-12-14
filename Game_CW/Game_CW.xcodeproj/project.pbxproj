@@ -83,6 +83,12 @@
 		1B26625A21B4B550001ECE82 /* tree1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26621621B4B54F001ECE82 /* tree1.png */; };
 		1B26625B21B4B550001ECE82 /* tree10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26621721B4B54F001ECE82 /* tree10.png */; };
 		1B74303F21B844AC003A037A /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74303E21B844AC003A037A /* Plane.swift */; };
+		1BB36E9721C35851009BDF93 /* star coin rotate 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB36E9121C3584F009BDF93 /* star coin rotate 2.png */; };
+		1BB36E9821C35851009BDF93 /* star coin rotate 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB36E9221C35850009BDF93 /* star coin rotate 4.png */; };
+		1BB36E9921C35851009BDF93 /* star coin rotate 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB36E9321C35850009BDF93 /* star coin rotate 3.png */; };
+		1BB36E9A21C35851009BDF93 /* star coin rotate 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB36E9421C35850009BDF93 /* star coin rotate 1.png */; };
+		1BB36E9B21C35851009BDF93 /* star coin rotate 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB36E9521C35850009BDF93 /* star coin rotate 5.png */; };
+		1BB36E9C21C35851009BDF93 /* star coin rotate 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB36E9621C35850009BDF93 /* star coin rotate 6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +191,12 @@
 		1B26621621B4B54F001ECE82 /* tree1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree1.png; path = ../../../Downloads/Images/tree1.png; sourceTree = "<group>"; };
 		1B26621721B4B54F001ECE82 /* tree10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree10.png; path = ../../../Downloads/Images/tree10.png; sourceTree = "<group>"; };
 		1B74303E21B844AC003A037A /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		1BB36E9121C3584F009BDF93 /* star coin rotate 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 2.png"; path = "../../../Downloads/star coin animation Pack/star coin rotate/star coin rotate 2.png"; sourceTree = "<group>"; };
+		1BB36E9221C35850009BDF93 /* star coin rotate 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 4.png"; path = "../../../Downloads/star coin animation Pack/star coin rotate/star coin rotate 4.png"; sourceTree = "<group>"; };
+		1BB36E9321C35850009BDF93 /* star coin rotate 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 3.png"; path = "../../../Downloads/star coin animation Pack/star coin rotate/star coin rotate 3.png"; sourceTree = "<group>"; };
+		1BB36E9421C35850009BDF93 /* star coin rotate 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 1.png"; path = "../../../Downloads/star coin animation Pack/star coin rotate/star coin rotate 1.png"; sourceTree = "<group>"; };
+		1BB36E9521C35850009BDF93 /* star coin rotate 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 5.png"; path = "../../../Downloads/star coin animation Pack/star coin rotate/star coin rotate 5.png"; sourceTree = "<group>"; };
+		1BB36E9621C35850009BDF93 /* star coin rotate 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 6.png"; path = "../../../Downloads/star coin animation Pack/star coin rotate/star coin rotate 6.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +231,12 @@
 				1B2661BA21B4B398001ECE82 /* Game_CWTests */,
 				1B2661C521B4B398001ECE82 /* Game_CWUITests */,
 				1B2661A421B4B397001ECE82 /* Products */,
+				1BB36E9421C35850009BDF93 /* star coin rotate 1.png */,
+				1BB36E9121C3584F009BDF93 /* star coin rotate 2.png */,
+				1BB36E9321C35850009BDF93 /* star coin rotate 3.png */,
+				1BB36E9221C35850009BDF93 /* star coin rotate 4.png */,
+				1BB36E9521C35850009BDF93 /* star coin rotate 5.png */,
+				1BB36E9621C35850009BDF93 /* star coin rotate 6.png */,
 				1B2661D821B4B546001ECE82 /* bird1.png */,
 				1B2661EF21B4B549001ECE82 /* bird2.png */,
 				1B2661DB21B4B546001ECE82 /* bird3.png */,
@@ -442,6 +460,7 @@
 				1B26622F21B4B550001ECE82 /* road17.png in Resources */,
 				1B26622921B4B550001ECE82 /* road6.png in Resources */,
 				1B26625221B4B550001ECE82 /* bird4.png in Resources */,
+				1BB36E9921C35851009BDF93 /* star coin rotate 3.png in Resources */,
 				1B26625621B4B550001ECE82 /* tree14.png in Resources */,
 				1B26624921B4B550001ECE82 /* road12.png in Resources */,
 				1B26621B21B4B550001ECE82 /* tree15.png in Resources */,
@@ -459,12 +478,17 @@
 				1B2661B121B4B398001ECE82 /* LaunchScreen.storyboard in Resources */,
 				1B26622B21B4B550001ECE82 /* road19.png in Resources */,
 				1B26623F21B4B550001ECE82 /* tree9.png in Resources */,
+				1BB36E9A21C35851009BDF93 /* star coin rotate 1.png in Resources */,
+				1BB36E9821C35851009BDF93 /* star coin rotate 4.png in Resources */,
 				1B26623D21B4B550001ECE82 /* plane7.png in Resources */,
 				1B26623421B4B550001ECE82 /* replay.png in Resources */,
+				1BB36E9C21C35851009BDF93 /* star coin rotate 6.png in Resources */,
 				1B26625421B4B550001ECE82 /* bird8.png in Resources */,
 				1B26621921B4B550001ECE82 /* road15.png in Resources */,
 				1B26622821B4B550001ECE82 /* tree5.png in Resources */,
 				1B26622721B4B550001ECE82 /* road11.png in Resources */,
+				1BB36E9B21C35851009BDF93 /* star coin rotate 5.png in Resources */,
+				1BB36E9721C35851009BDF93 /* star coin rotate 2.png in Resources */,
 				1B26625B21B4B550001ECE82 /* tree10.png in Resources */,
 				1B26622A21B4B550001ECE82 /* plane3.png in Resources */,
 				1B26624721B4B550001ECE82 /* plane9.png in Resources */,

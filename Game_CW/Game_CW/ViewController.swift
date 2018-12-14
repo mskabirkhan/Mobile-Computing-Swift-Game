@@ -31,12 +31,13 @@ class ViewController: UIViewController, subviewDelegate {
     var dynamicAnimator: UIDynamicAnimator!
     //var dynamicItemBehaviour:  UIDynamicItemBehavior!
     var gravityBehavior: UIGravityBehavior!
+
     
     
     let  birdArray = [0, 2, 4, 6, 8, 12, 14, 16, 18]
     let  birdArray1 = [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5, 19.5]
     let  coinArray = [0, 2, 4, 6, 8, 12, 14, 16, 18]
-    let  coinArray1 = [0, 2, 4, 6, 8, 12, 14, 16, 18]
+    let  coinArray1 = [0, 2.5, 5, 6.5, 8.8, 12.8, 14.8, 16.9, 17.8, 19]
     
     
     @IBOutlet weak var roadImage: UIImageView!
@@ -95,6 +96,8 @@ class ViewController: UIViewController, subviewDelegate {
         var imageArray: [UIImage]!
         var imageArray2: [UIImage]!
         var imageArray3: [UIImage]!
+       
+        
         imageArray = [UIImage(named: "road1.png")!,
                       UIImage(named: "road2.png")!,
                       UIImage(named: "road3.png")!,
@@ -253,7 +256,12 @@ class ViewController: UIViewController, subviewDelegate {
                 var imageArray5: [UIImage]
                 
                 
-                imageArray5 =  [UIImage(named: "coin.png")!]
+                imageArray5 =  [UIImage(named: "star coin rotate 1.png")!,
+                                UIImage(named: "star coin rotate 2.png")!,
+                                UIImage(named: "star coin rotate 3.png")!,
+                                UIImage(named: "star coin rotate 4.png")!,
+                                UIImage(named: "star coin rotate 5.png")!,
+                                UIImage(named: "star coin rotate 6.png")!]
                 
                 
                 //Assign an image to the image view
@@ -261,20 +269,63 @@ class ViewController: UIViewController, subviewDelegate {
                 
                 //Assign the size and position of the image view
                 coinView.image = UIImage.animatedImage(with: imageArray5, duration: 1)
-                coinView.frame = CGRect(x:self.W, y: CGFloat(arc4random_uniform(UInt32(self.H))), width: self.W*(0.10), height: self.H*(0.10))
+                coinView.frame = CGRect(x:self.W, y: CGFloat(arc4random_uniform(UInt32(self.H))), width: self.W*(0.03), height: self.H*(0.12))
                 
         
                 
                 
                 //Add the image view to the main view
                 self.view.addSubview(coinView)
-            
-                
                 self.view.bringSubviewToFront(coinView)
                 
                 self.dynamicBehavior.addItem(coinView)
                 self.dynamicBehavior.addLinearVelocity(CGPoint(x: -400, y:50), for: coinView)
                 self.collisionBehaviour.addItem(coinView)
+                //collisionBehaviour.action = coinArray.removeFromSuperview()
+                
+                
+                
+                
+            }
+            
+            
+        }
+        
+        for index in 0...8{
+            let delay = Double(self.coinArray1[index])
+            let when = DispatchTime.now() + delay
+            
+            DispatchQueue.main.asyncAfter(deadline: when){
+                let coinView = UIImageView(image:nil)
+                var imageArray5: [UIImage]
+                
+                
+                imageArray5 =  [UIImage(named: "star coin rotate 1.png")!,
+                                UIImage(named: "star coin rotate 2.png")!,
+                                UIImage(named: "star coin rotate 3.png")!,
+                                UIImage(named: "star coin rotate 4.png")!,
+                                UIImage(named: "star coin rotate 5.png")!,
+                                UIImage(named: "star coin rotate 6.png")!]
+                
+                
+                //Assign an image to the image view
+                
+                
+                //Assign the size and position of the image view
+                coinView.image = UIImage.animatedImage(with: imageArray5, duration: 1)
+                coinView.frame = CGRect(x:self.W, y: CGFloat(arc4random_uniform(UInt32(self.H))), width: self.W*(0.03), height: self.H*(0.12))
+                
+                
+                
+                
+                //Add the image view to the main view
+                self.view.addSubview(coinView)
+                self.view.bringSubviewToFront(coinView)
+                
+                self.dynamicBehavior.addItem(coinView)
+                self.dynamicBehavior.addLinearVelocity(CGPoint(x: -400, y:50), for: coinView)
+                self.collisionBehaviour.addItem(coinView)
+                
                 
                 
                 

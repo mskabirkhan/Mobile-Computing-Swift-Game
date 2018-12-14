@@ -2,6 +2,33 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Game_CW.xcodeproj">
+      location = "group:../../../../Downloads/goldCoin/goldcoin1.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Downloads/goldCoin/goldCoin2.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Downloads/goldCoin/goldCoin3.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Downloads/goldCoin/goldCoin4.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Downloads/goldCoin/goldCoin5.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Downloads/goldCoin/goldCoin6.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Downloads/goldCoin/goldCoin7.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Downloads/goldCoin/goldCoin8.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Downloads/goldCoin/goldCoin9.png">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
