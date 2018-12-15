@@ -35,15 +35,15 @@ class ViewController: UIViewController, subviewDelegate {
     
     
     let  birdArray = [0, 2, 4, 6, 8, 12, 14, 16, 18]
-    let  birdArray1 = [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5, 19.5]
-    let  coinArray = [0, 2, 4, 6, 8, 12, 14, 16, 18]
+    let  birdArray1 = [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5]
+    let  coinArray = [0, 2, 6, 8, 12, 16, 18, 22, 26]
     let  coinArray1 = [0, 2.5, 5, 6.5, 8.8, 12.8, 14.8, 16.9, 17.8, 19]
     
     
     @IBOutlet weak var roadImage: UIImageView!
     @IBOutlet weak var treeImage: UIImageView!
     @IBOutlet weak var planeImage: Plane!
-    
+    @IBOutlet weak var skyView: UIImageView!
     
     
     
@@ -124,22 +124,22 @@ class ViewController: UIViewController, subviewDelegate {
         //moving road array
         
         imageArray2 = [UIImage(named: "tree1.png")!,
-                      UIImage(named: "tree2.png")!,
-                      UIImage(named: "tree3.png")!,
-                      UIImage(named: "tree4.png")!,
-                      UIImage(named: "tree5.png")!,
-                      UIImage(named: "tree6.png")!,
-                      UIImage(named: "tree7.png")!,
-                      UIImage(named: "tree7.png")!,
-                      UIImage(named: "tree9.png")!,
-                      UIImage(named: "tree10.png")!,
-                      UIImage(named: "tree11.png")!,
-                      UIImage(named: "tree12.png")!,
-                      UIImage(named: "tree13.png")!,
-                      UIImage(named: "tree14.png")!,
-                      UIImage(named: "tree15.png")!,
-                      UIImage(named: "tree16.png")!,
-                      UIImage(named: "tree17.png")!]
+                       UIImage(named: "tree2.png")!,
+                       UIImage(named: "tree3.png")!,
+                       UIImage(named: "tree4.png")!,
+                       UIImage(named: "tree5.png")!,
+                       UIImage(named: "tree6.png")!,
+                       UIImage(named: "tree7.png")!,
+                       UIImage(named: "tree7.png")!,
+                       UIImage(named: "tree9.png")!,
+                       UIImage(named: "tree10.png")!,
+                       UIImage(named: "tree11.png")!,
+                       UIImage(named: "tree12.png")!,
+                       UIImage(named: "tree13.png")!,
+                       UIImage(named: "tree14.png")!,
+                       UIImage(named: "tree15.png")!,
+                       UIImage(named: "tree16.png")!,
+                       UIImage(named: "tree17.png")!]
         
         treeImage.image = UIImage.animatedImage(with: imageArray2, duration: 1)
         treeImage.frame = CGRect(x:0, y:H*(-0.2), width: W*(1), height: H*1)
@@ -268,7 +268,7 @@ class ViewController: UIViewController, subviewDelegate {
                 
                 
                 //Assign the size and position of the image view
-                coinView.image = UIImage.animatedImage(with: imageArray5, duration: 1)
+                coinView.image = UIImage.animatedImage(with: imageArray5, duration: 2)
                 coinView.frame = CGRect(x:self.W, y: CGFloat(arc4random_uniform(UInt32(self.H))), width: self.W*(0.03), height: self.H*(0.12))
                 
         
@@ -291,7 +291,7 @@ class ViewController: UIViewController, subviewDelegate {
             
         }
         
-        for index in 0...8{
+        for index in 0...7{
             let delay = Double(self.coinArray1[index])
             let when = DispatchTime.now() + delay
             
@@ -323,7 +323,7 @@ class ViewController: UIViewController, subviewDelegate {
                 self.view.bringSubviewToFront(coinView)
                 
                 self.dynamicBehavior.addItem(coinView)
-                self.dynamicBehavior.addLinearVelocity(CGPoint(x: -400, y:50), for: coinView)
+                //self.dynamicBehavior.addLinearVelocity(CGPoint(x: -400, y:50), for: coinView)
                 self.collisionBehaviour.addItem(coinView)
                 
                 

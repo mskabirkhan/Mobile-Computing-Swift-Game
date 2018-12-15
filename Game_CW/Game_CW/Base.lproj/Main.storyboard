@@ -26,12 +26,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree1.png" translatesAutoresizingMaskIntoConstraints="NO" id="KKE-ZT-hAX">
-                                <rect key="frame" x="0.0" y="103" width="667" height="193"/>
+                                <rect key="frame" x="0.0" y="103" width="742" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plane1.png" translatesAutoresizingMaskIntoConstraints="NO" id="ols-8a-g0J" customClass="Plane" customModule="Game_CW" customModuleProvider="target">
                                 <rect key="frame" x="20" y="96" width="95" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud.png" translatesAutoresizingMaskIntoConstraints="NO" id="dAd-fX-y2h">
+                                <rect key="frame" x="149" y="0.0" width="474" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -47,15 +51,17 @@
                     <connections>
                         <outlet property="planeImage" destination="ols-8a-g0J" id="HdV-4K-ZPi"/>
                         <outlet property="roadImage" destination="yiE-sk-0uW" id="fB5-d8-mC6"/>
+                        <outlet property="skyView" destination="dAd-fX-y2h" id="CFO-AP-Gjj"/>
                         <outlet property="treeImage" destination="KKE-ZT-hAX" id="hIb-f6-ysq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1162" y="-1503"/>
+            <point key="canvasLocation" x="-1096.1019490254873" y="-1503.2"/>
         </scene>
     </scenes>
     <resources>
+        <image name="cloud.png" width="600" height="278"/>
         <image name="plane1.png" width="126" height="74"/>
         <image name="road18.png" width="1024" height="600"/>
         <image name="tree1.png" width="1024" height="600"/>
