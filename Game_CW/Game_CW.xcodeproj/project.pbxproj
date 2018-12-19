@@ -82,6 +82,8 @@
 		1B26625921B4B550001ECE82 /* road4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26621521B4B54F001ECE82 /* road4.png */; };
 		1B26625A21B4B550001ECE82 /* tree1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26621621B4B54F001ECE82 /* tree1.png */; };
 		1B26625B21B4B550001ECE82 /* tree10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26621721B4B54F001ECE82 /* tree10.png */; };
+		1B6273B821CAC6DF00B785D8 /* insta.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1B6273B721CAC6DE00B785D8 /* insta.gif */; };
+		1B6273BA21CACD1900B785D8 /* SceneOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6273B921CACD1900B785D8 /* SceneOver.png */; };
 		1B74303F21B844AC003A037A /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74303E21B844AC003A037A /* Plane.swift */; };
 		1BB36E9721C35851009BDF93 /* star coin rotate 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB36E9121C3584F009BDF93 /* star coin rotate 2.png */; };
 		1BB36E9821C35851009BDF93 /* star coin rotate 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB36E9221C35850009BDF93 /* star coin rotate 4.png */; };
@@ -190,6 +192,8 @@
 		1B26621521B4B54F001ECE82 /* road4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road4.png; path = ../../../Downloads/Images/road4.png; sourceTree = "<group>"; };
 		1B26621621B4B54F001ECE82 /* tree1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree1.png; path = ../../../Downloads/Images/tree1.png; sourceTree = "<group>"; };
 		1B26621721B4B54F001ECE82 /* tree10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree10.png; path = ../../../Downloads/Images/tree10.png; sourceTree = "<group>"; };
+		1B6273B721CAC6DE00B785D8 /* insta.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = insta.gif; path = ../../../insta.gif; sourceTree = "<group>"; };
+		1B6273B921CACD1900B785D8 /* SceneOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SceneOver.png; path = ../../../SceneOver.png; sourceTree = "<group>"; };
 		1B74303E21B844AC003A037A /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 		1BB36E9121C3584F009BDF93 /* star coin rotate 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 2.png"; path = "../../../Downloads/star coin animation Pack/star coin rotate/star coin rotate 2.png"; sourceTree = "<group>"; };
 		1BB36E9221C35850009BDF93 /* star coin rotate 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 4.png"; path = "../../../Downloads/star coin animation Pack/star coin rotate/star coin rotate 4.png"; sourceTree = "<group>"; };
@@ -324,6 +328,8 @@
 				1B2661A621B4B397001ECE82 /* AppDelegate.swift */,
 				1B2661A821B4B397001ECE82 /* ViewController.swift */,
 				1B2661AA21B4B397001ECE82 /* Main.storyboard */,
+				1B6273B921CACD1900B785D8 /* SceneOver.png */,
+				1B6273B721CAC6DE00B785D8 /* insta.gif */,
 				1B74303E21B844AC003A037A /* Plane.swift */,
 				1B2661AD21B4B398001ECE82 /* Assets.xcassets */,
 				1B2661AF21B4B398001ECE82 /* LaunchScreen.storyboard */,
@@ -468,6 +474,7 @@
 				1B26622521B4B550001ECE82 /* road18.png in Resources */,
 				1B26625821B4B550001ECE82 /* bird9.png in Resources */,
 				1B26623021B4B550001ECE82 /* road14.png in Resources */,
+				1B6273B821CAC6DF00B785D8 /* insta.gif in Resources */,
 				1B26624D21B4B550001ECE82 /* road3.png in Resources */,
 				1B26624321B4B550001ECE82 /* plane4.png in Resources */,
 				1B26625321B4B550001ECE82 /* explosion.png in Resources */,
@@ -522,6 +529,7 @@
 				1B26623E21B4B550001ECE82 /* road9.png in Resources */,
 				1B26622D21B4B550001ECE82 /* plane15.png in Resources */,
 				1B26622221B4B550001ECE82 /* tree4.png in Resources */,
+				1B6273BA21CACD1900B785D8 /* SceneOver.png in Resources */,
 				1B26623921B4B550001ECE82 /* tree3.png in Resources */,
 				1B26623721B4B550001ECE82 /* tree12.png in Resources */,
 				1B26625A21B4B550001ECE82 /* tree1.png in Resources */,

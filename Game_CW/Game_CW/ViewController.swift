@@ -21,6 +21,8 @@ class ViewController: UIViewController, subviewDelegate {
     let H = UIScreen.main.bounds.height
     
     func changeBehavior() {
+        Score.text = "Score: \(point)"
+        Dedution.text = "Deduction: \(deduct)"
         collisionBehaviour.removeAllBoundaries()
         collisionBehaviour.addBoundary(withIdentifier: "barrier" as NSCopying, for: UIBezierPath(rect: planeImage.frame))
     }
@@ -34,18 +36,27 @@ class ViewController: UIViewController, subviewDelegate {
 
     
     
-    let  birdArray = [0, 2, 4, 6, 8, 12, 14, 16, 18]
-    let  birdArray1 = [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5]
-    let  coinArray = [0, 2, 6, 8, 12, 16, 18, 22, 26]
-    let  coinArray1 = [0, 2.5, 5, 6.5, 8.8, 12.8, 14.8, 16.9, 17.8, 19]
+    let  birdArray = [0, 3, 5, 9, 11, 13, 15, 17, 19]
+    //let  birdArray1 = [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5]
+    let  coinArray = [0, 2, 4, 6, 8, 12, 14, 16, 18]
+   // let  coinArray1 = [0, 2.5, 5, 6.5, 8.8, 12.8, 14.8, 16.9, 17.8, 19]
     
     
+    @IBOutlet weak var end: UIView!
     @IBOutlet weak var roadImage: UIImageView!
     @IBOutlet weak var treeImage: UIImageView!
     @IBOutlet weak var planeImage: Plane!
     @IBOutlet weak var skyView: UIImageView!
+    @IBOutlet weak var Score: UILabel!
+    @IBOutlet weak var Dedution: UILabel!
     
+    @IBOutlet weak var over: UIImageView!
+    @IBAction func playAgain(_ sender: Any) {
+        self.viewDidLoad()
+    }
     
+    var point = 0
+    var deduct = 0
     
     //override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)  {
         
@@ -96,6 +107,8 @@ class ViewController: UIViewController, subviewDelegate {
         var imageArray: [UIImage]!
         var imageArray2: [UIImage]!
         var imageArray3: [UIImage]!
+        
+
        
         
         imageArray = [UIImage(named: "road1.png")!,
@@ -202,7 +215,7 @@ class ViewController: UIViewController, subviewDelegate {
         
         
         //Assign the size and position of the image view
-        birdView.image = UIImage.animatedImage(with: imageArray4, duration: 2)
+        birdView.image = UIImage.animatedImage(with: imageArray4, duration: 1)
         birdView.frame = CGRect(x:self.W, y: CGFloat(arc4random_uniform(UInt32(self.H))), width: self.W*(0.25), height: self.H*(0.25))
         
         //birdView2.image = UIImage.animatedImage(with: imageArray4, duration: 1)
@@ -224,8 +237,14 @@ class ViewController: UIViewController, subviewDelegate {
         self.view.bringSubviewToFront(birdView)
                 
         self.dynamicBehavior.addItem(birdView)
-        self.dynamicBehavior.addLinearVelocity(CGPoint(x: -400, y:0), for: birdView)
-        self.collisionBehaviour.addItem(birdView)
+        self.dynamicBehavior.addLinearVelocity(CGPoint(x: -200, y:0), for: birdView)
+       // self.collisionBehaviour.addItem(birdView)
+                self.collisionBehaviour.action = {
+                    if(self.planeImage.frame.intersects(birdView.frame)){
+                        self.deduct -= 5
+                    }
+                    
+                }
         //self.birdDynamicAnimator = UIDynamicAnimator(referenceView: self.view)
         //self.birdDynamicItemBehaviour = UIDynamicItemBehavior(items: [birdView])
         //self.birdDynamicAnimator.addBehavior(self.birdDynamicItemBehaviour)
@@ -268,8 +287,8 @@ class ViewController: UIViewController, subviewDelegate {
                 
                 
                 //Assign the size and position of the image view
-                coinView.image = UIImage.animatedImage(with: imageArray5, duration: 2)
-                coinView.frame = CGRect(x:self.W, y: CGFloat(arc4random_uniform(UInt32(self.H))), width: self.W*(0.03), height: self.H*(0.12))
+                coinView.image = UIImage.animatedImage(with: imageArray5, duration: 5)
+                coinView.frame = CGRect(x:self.W, y: CGFloat(arc4random_uniform(UInt32(self.H)-60)), width: self.W*(0.03), height: self.H*(0.09))
                 
         
                 
@@ -283,64 +302,31 @@ class ViewController: UIViewController, subviewDelegate {
                 self.collisionBehaviour.addItem(coinView)
                 //collisionBehaviour.action = coinArray.removeFromSuperview()
                 
+                self.collisionBehaviour.action = {
+                    if(self.planeImage.frame.intersects(coinView.frame)){
+                    self.point += 5
+                    coinView.removeFromSuperview()
+                }
                 
-                
-                
+                }
             }
             
             
         }
-        
-        for index in 0...7{
-            let delay = Double(self.coinArray1[index])
-            let when = DispatchTime.now() + delay
-            
-            DispatchQueue.main.asyncAfter(deadline: when){
-                let coinView = UIImageView(image:nil)
-                var imageArray5: [UIImage]
-                
-                
-                imageArray5 =  [UIImage(named: "star coin rotate 1.png")!,
-                                UIImage(named: "star coin rotate 2.png")!,
-                                UIImage(named: "star coin rotate 3.png")!,
-                                UIImage(named: "star coin rotate 4.png")!,
-                                UIImage(named: "star coin rotate 5.png")!,
-                                UIImage(named: "star coin rotate 6.png")!]
-                
-                
-                //Assign an image to the image view
-                
-                
-                //Assign the size and position of the image view
-                coinView.image = UIImage.animatedImage(with: imageArray5, duration: 1)
-                coinView.frame = CGRect(x:self.W, y: CGFloat(arc4random_uniform(UInt32(self.H))), width: self.W*(0.03), height: self.H*(0.12))
-                
-                
-                
-                
-                //Add the image view to the main view
-                self.view.addSubview(coinView)
-                self.view.bringSubviewToFront(coinView)
-                
-                self.dynamicBehavior.addItem(coinView)
-                //self.dynamicBehavior.addLinearVelocity(CGPoint(x: -400, y:50), for: coinView)
-                self.collisionBehaviour.addItem(coinView)
-                
-                
-                
-                
-                
-            }
-            
+        self.end.isHidden = true
+        let when = DispatchTime.now() + 20
+        DispatchQueue.main.asyncAfter(deadline: when) {
+            self.end.isHidden = false
+            self.end.alpha = 1
+            self.end.frame = CGRect(x:0, y:0, width: self.W*1, height: self.H*1)
+            self.over.frame = CGRect(x:0, y:0, width: self.W*1, height: self.H*1)
+            //self.Score.text = "Score: \(self.point)"
             
         }
-        
-
-        
-        
         
         
     }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -348,5 +334,6 @@ class ViewController: UIViewController, subviewDelegate {
     }
     
 
-}
 
+
+}
