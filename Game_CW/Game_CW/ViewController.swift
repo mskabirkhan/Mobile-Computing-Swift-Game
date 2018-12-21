@@ -36,7 +36,7 @@ class ViewController: UIViewController, subviewDelegate {
 
     
     
-    let  birdArray = [0, 3, 5, 9, 11, 13, 15, 17, 19]
+    let  birdArray = [0, 1, 3, 7, 9, 11, 13, 15, 16]
     //let  birdArray1 = [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5]
     let  coinArray = [0, 2, 4, 6, 8, 12, 14, 16, 18]
    // let  coinArray1 = [0, 2.5, 5, 6.5, 8.8, 12.8, 14.8, 16.9, 17.8, 19]
@@ -49,7 +49,7 @@ class ViewController: UIViewController, subviewDelegate {
     @IBOutlet weak var skyView: UIImageView!
     @IBOutlet weak var Score: UILabel!
     @IBOutlet weak var Dedution: UILabel!
-    
+    @IBOutlet weak var house: UIImageView!
     @IBOutlet weak var over: UIImageView!
     @IBAction func playAgain(_ sender: Any) {
         self.viewDidLoad()
@@ -108,6 +108,7 @@ class ViewController: UIViewController, subviewDelegate {
         var imageArray2: [UIImage]!
         var imageArray3: [UIImage]!
         
+        
 
        
         
@@ -135,6 +136,7 @@ class ViewController: UIViewController, subviewDelegate {
         roadImage.frame = CGRect(x:0, y:0, width: W*1, height: H*1)
         
         //moving road array
+        
         
         imageArray2 = [UIImage(named: "tree1.png")!,
                        UIImage(named: "tree2.png")!,
@@ -322,6 +324,7 @@ class ViewController: UIViewController, subviewDelegate {
             self.over.frame = CGRect(x:0, y:0, width: self.W*1, height: self.H*1)
             //self.Score.text = "Score: \(self.point)"
             
+           
         }
         
         

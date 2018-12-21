@@ -7,6 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B22ED4F21CC7D0F0049D09F /* road3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED0321CC7CF70049D09F /* road3.png */; };
+		1B22ED5021CC7D0F0049D09F /* plane12.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED0421CC7CF70049D09F /* plane12.png */; };
+		1B22ED5121CC7D0F0049D09F /* road8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED0521CC7CF70049D09F /* road8.png */; };
+		1B22ED5221CC7D0F0049D09F /* plane11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED0621CC7CF70049D09F /* plane11.png */; };
+		1B22ED5321CC7D0F0049D09F /* star coin rotate 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED0721CC7CF70049D09F /* star coin rotate 3.png */; };
+		1B22ED5421CC7D0F0049D09F /* bird5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED0821CC7CF70049D09F /* bird5.png */; };
+		1B22ED5521CC7D0F0049D09F /* tree13.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED0921CC7CF80049D09F /* tree13.png */; };
+		1B22ED5621CC7D0F0049D09F /* tree8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED0A21CC7CF80049D09F /* tree8.png */; };
+		1B22ED5721CC7D0F0049D09F /* bird9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED0B21CC7CF80049D09F /* bird9.png */; };
+		1B22ED5921CC7D0F0049D09F /* road12.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED0D21CC7CF80049D09F /* road12.png */; };
+		1B22ED5A21CC7D0F0049D09F /* tree16.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED0E21CC7CF80049D09F /* tree16.png */; };
+		1B22ED5B21CC7D0F0049D09F /* tree10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED0F21CC7CF90049D09F /* tree10.png */; };
+		1B22ED5C21CC7D0F0049D09F /* plane2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1021CC7CF90049D09F /* plane2.png */; };
+		1B22ED5D21CC7D0F0049D09F /* game_over.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1121CC7CF90049D09F /* game_over.jpg */; };
+		1B22ED5E21CC7D0F0049D09F /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1221CC7CF90049D09F /* explosion.png */; };
+		1B22ED5F21CC7D0F0049D09F /* road10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1321CC7CF90049D09F /* road10.png */; };
+		1B22ED6021CC7D0F0049D09F /* cloud2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1421CC7CF90049D09F /* cloud2.png */; };
+		1B22ED6121CC7D0F0049D09F /* star coin rotate 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1521CC7CF90049D09F /* star coin rotate 4.png */; };
+		1B22ED6221CC7D0F0049D09F /* road2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1621CC7CFA0049D09F /* road2.png */; };
+		1B22ED6321CC7D0F0049D09F /* tree12.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1721CC7CFA0049D09F /* tree12.png */; };
+		1B22ED6421CC7D0F0049D09F /* plane1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1821CC7CFA0049D09F /* plane1.png */; };
+		1B22ED6521CC7D0F0049D09F /* plane14.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1921CC7CFA0049D09F /* plane14.png */; };
+		1B22ED6621CC7D0F0049D09F /* road13.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1A21CC7CFA0049D09F /* road13.png */; };
+		1B22ED6721CC7D0F0049D09F /* house1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1B21CC7CFA0049D09F /* house1.png */; };
+		1B22ED6821CC7D0F0049D09F /* tree1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1C21CC7CFB0049D09F /* tree1.png */; };
+		1B22ED6921CC7D0F0049D09F /* tree6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1D21CC7CFB0049D09F /* tree6.png */; };
+		1B22ED6A21CC7D0F0049D09F /* road1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1E21CC7CFB0049D09F /* road1.png */; };
+		1B22ED6B21CC7D0F0049D09F /* plane3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED1F21CC7CFB0049D09F /* plane3.png */; };
+		1B22ED6C21CC7D0F0049D09F /* SceneOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2021CC7CFB0049D09F /* SceneOver.png */; };
+		1B22ED6D21CC7D0F0049D09F /* tree15.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2121CC7CFB0049D09F /* tree15.png */; };
+		1B22ED6E21CC7D0F0049D09F /* bird10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2221CC7CFC0049D09F /* bird10.png */; };
+		1B22ED6F21CC7D0F0049D09F /* road14.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2321CC7CFC0049D09F /* road14.png */; };
+		1B22ED7021CC7D0F0049D09F /* road18.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2421CC7CFC0049D09F /* road18.png */; };
+		1B22ED7121CC7D0F0049D09F /* road7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2521CC7CFC0049D09F /* road7.png */; };
+		1B22ED7221CC7D0F0049D09F /* plane4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2621CC7D070049D09F /* plane4.png */; };
+		1B22ED7321CC7D0F0049D09F /* road15.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2721CC7D080049D09F /* road15.png */; };
+		1B22ED7421CC7D0F0049D09F /* bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2821CC7D080049D09F /* bird1.png */; };
+		1B22ED7521CC7D0F0049D09F /* road4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2921CC7D080049D09F /* road4.png */; };
+		1B22ED7621CC7D0F0049D09F /* bird6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2A21CC7D080049D09F /* bird6.png */; };
+		1B22ED7721CC7D0F0049D09F /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2B21CC7D090049D09F /* coin.png */; };
+		1B22ED7821CC7D0F0049D09F /* plane15.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2C21CC7D090049D09F /* plane15.png */; };
+		1B22ED7921CC7D0F0049D09F /* tree2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2D21CC7D090049D09F /* tree2.png */; };
+		1B22ED7A21CC7D0F0049D09F /* road19.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2E21CC7D090049D09F /* road19.png */; };
+		1B22ED7B21CC7D0F0049D09F /* tree7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2F21CC7D090049D09F /* tree7.png */; };
+		1B22ED7C21CC7D0F0049D09F /* star coin rotate 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3021CC7D090049D09F /* star coin rotate 5.png */; };
+		1B22ED7D21CC7D0F0049D09F /* plane8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3121CC7D0A0049D09F /* plane8.png */; };
+		1B22ED7E21CC7D0F0049D09F /* road17.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3221CC7D0A0049D09F /* road17.png */; };
+		1B22ED7F21CC7D0F0049D09F /* road11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3321CC7D0A0049D09F /* road11.png */; };
+		1B22ED8021CC7D0F0049D09F /* star coin rotate 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3421CC7D0A0049D09F /* star coin rotate 1.png */; };
+		1B22ED8121CC7D0F0049D09F /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3521CC7D0B0049D09F /* cloud.png */; };
+		1B22ED8221CC7D0F0049D09F /* star coin rotate 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3621CC7D0B0049D09F /* star coin rotate 2.png */; };
+		1B22ED8321CC7D0F0049D09F /* tree17.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3721CC7D0B0049D09F /* tree17.png */; };
+		1B22ED8421CC7D0F0049D09F /* road9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3821CC7D0B0049D09F /* road9.png */; };
+		1B22ED8521CC7D0F0049D09F /* bird8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3921CC7D0B0049D09F /* bird8.png */; };
+		1B22ED8621CC7D0F0049D09F /* tree9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3A21CC7D0B0049D09F /* tree9.png */; };
+		1B22ED8721CC7D0F0049D09F /* tree3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3B21CC7D0C0049D09F /* tree3.png */; };
+		1B22ED8821CC7D0F0049D09F /* star coin rotate 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3C21CC7D0C0049D09F /* star coin rotate 6.png */; };
+		1B22ED8921CC7D0F0049D09F /* tree5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3D21CC7D0C0049D09F /* tree5.png */; };
+		1B22ED8A21CC7D0F0049D09F /* tree14.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3E21CC7D0C0049D09F /* tree14.png */; };
+		1B22ED8B21CC7D0F0049D09F /* tree11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3F21CC7D0C0049D09F /* tree11.png */; };
+		1B22ED8C21CC7D0F0049D09F /* plane10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4021CC7D0C0049D09F /* plane10.png */; };
+		1B22ED8D21CC7D0F0049D09F /* bird7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4121CC7D0C0049D09F /* bird7.png */; };
+		1B22ED8E21CC7D0F0049D09F /* road5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4221CC7D0D0049D09F /* road5.png */; };
+		1B22ED8F21CC7D0F0049D09F /* plane9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4321CC7D0D0049D09F /* plane9.png */; };
+		1B22ED9021CC7D0F0049D09F /* bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4421CC7D0D0049D09F /* bird2.png */; };
+		1B22ED9121CC7D0F0049D09F /* plane7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4521CC7D0D0049D09F /* plane7.png */; };
+		1B22ED9221CC7D0F0049D09F /* plane13.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4621CC7D0D0049D09F /* plane13.png */; };
+		1B22ED9321CC7D0F0049D09F /* bird4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4721CC7D0D0049D09F /* bird4.png */; };
+		1B22ED9421CC7D0F0049D09F /* bird3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4821CC7D0E0049D09F /* bird3.png */; };
+		1B22ED9521CC7D0F0049D09F /* road6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4921CC7D0E0049D09F /* road6.png */; };
+		1B22ED9621CC7D0F0049D09F /* road16.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4A21CC7D0E0049D09F /* road16.png */; };
+		1B22ED9721CC7D0F0049D09F /* tree4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4B21CC7D0E0049D09F /* tree4.png */; };
+		1B22ED9821CC7D0F0049D09F /* plane5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4C21CC7D0E0049D09F /* plane5.png */; };
+		1B22ED9921CC7D0F0049D09F /* plane6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4D21CC7D0E0049D09F /* plane6.png */; };
+		1B22ED9A21CC7D0F0049D09F /* replay.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4E21CC7D0F0049D09F /* replay.png */; };
 		1B2661A721B4B397001ECE82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2661A621B4B397001ECE82 /* AppDelegate.swift */; };
 		1B2661A921B4B397001ECE82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2661A821B4B397001ECE82 /* ViewController.swift */; };
 		1B2661AC21B4B397001ECE82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661AA21B4B397001ECE82 /* Main.storyboard */; };
@@ -14,83 +89,7 @@
 		1B2661B121B4B398001ECE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661AF21B4B398001ECE82 /* LaunchScreen.storyboard */; };
 		1B2661BC21B4B398001ECE82 /* Game_CWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2661BB21B4B398001ECE82 /* Game_CWTests.swift */; };
 		1B2661C721B4B398001ECE82 /* Game_CWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2661C621B4B398001ECE82 /* Game_CWUITests.swift */; };
-		1B26621821B4B550001ECE82 /* plane8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661D421B4B545001ECE82 /* plane8.png */; };
-		1B26621921B4B550001ECE82 /* road15.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661D521B4B545001ECE82 /* road15.png */; };
-		1B26621A21B4B550001ECE82 /* tree2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661D621B4B546001ECE82 /* tree2.png */; };
-		1B26621B21B4B550001ECE82 /* tree15.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661D721B4B546001ECE82 /* tree15.png */; };
-		1B26621C21B4B550001ECE82 /* bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661D821B4B546001ECE82 /* bird1.png */; };
-		1B26621D21B4B550001ECE82 /* road2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661D921B4B546001ECE82 /* road2.png */; };
-		1B26621E21B4B550001ECE82 /* plane2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661DA21B4B546001ECE82 /* plane2.png */; };
-		1B26621F21B4B550001ECE82 /* bird3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661DB21B4B546001ECE82 /* bird3.png */; };
-		1B26622021B4B550001ECE82 /* plane10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661DC21B4B546001ECE82 /* plane10.png */; };
-		1B26622121B4B550001ECE82 /* bird5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661DD21B4B547001ECE82 /* bird5.png */; };
-		1B26622221B4B550001ECE82 /* tree4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661DE21B4B547001ECE82 /* tree4.png */; };
-		1B26622321B4B550001ECE82 /* tree6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661DF21B4B547001ECE82 /* tree6.png */; };
-		1B26622421B4B550001ECE82 /* bird10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661E021B4B547001ECE82 /* bird10.png */; };
-		1B26622521B4B550001ECE82 /* road18.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661E121B4B547001ECE82 /* road18.png */; };
-		1B26622621B4B550001ECE82 /* bird6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661E221B4B547001ECE82 /* bird6.png */; };
-		1B26622721B4B550001ECE82 /* road11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661E321B4B547001ECE82 /* road11.png */; };
-		1B26622821B4B550001ECE82 /* tree5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661E421B4B548001ECE82 /* tree5.png */; };
-		1B26622921B4B550001ECE82 /* road6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661E521B4B548001ECE82 /* road6.png */; };
-		1B26622A21B4B550001ECE82 /* plane3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661E621B4B548001ECE82 /* plane3.png */; };
-		1B26622B21B4B550001ECE82 /* road19.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661E721B4B548001ECE82 /* road19.png */; };
-		1B26622C21B4B550001ECE82 /* game_over.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661E821B4B548001ECE82 /* game_over.jpg */; };
-		1B26622D21B4B550001ECE82 /* plane15.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661E921B4B548001ECE82 /* plane15.png */; };
-		1B26622E21B4B550001ECE82 /* road1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661EA21B4B548001ECE82 /* road1.png */; };
-		1B26622F21B4B550001ECE82 /* road17.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661EB21B4B549001ECE82 /* road17.png */; };
-		1B26623021B4B550001ECE82 /* road14.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661EC21B4B549001ECE82 /* road14.png */; };
-		1B26623121B4B550001ECE82 /* plane14.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661ED21B4B549001ECE82 /* plane14.png */; };
-		1B26623221B4B550001ECE82 /* road5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661EE21B4B549001ECE82 /* road5.png */; };
-		1B26623321B4B550001ECE82 /* bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661EF21B4B549001ECE82 /* bird2.png */; };
-		1B26623421B4B550001ECE82 /* replay.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661F021B4B549001ECE82 /* replay.png */; };
-		1B26623521B4B550001ECE82 /* plane6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661F121B4B549001ECE82 /* plane6.png */; };
-		1B26623621B4B550001ECE82 /* tree13.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661F221B4B54A001ECE82 /* tree13.png */; };
-		1B26623721B4B550001ECE82 /* tree12.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661F321B4B54A001ECE82 /* tree12.png */; };
-		1B26623821B4B550001ECE82 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661F421B4B54A001ECE82 /* cloud.png */; };
-		1B26623921B4B550001ECE82 /* tree3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661F521B4B54A001ECE82 /* tree3.png */; };
-		1B26623A21B4B550001ECE82 /* road10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661F621B4B54A001ECE82 /* road10.png */; };
-		1B26623B21B4B550001ECE82 /* plane11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661F721B4B54A001ECE82 /* plane11.png */; };
-		1B26623C21B4B550001ECE82 /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661F821B4B54A001ECE82 /* coin.png */; };
-		1B26623D21B4B550001ECE82 /* plane7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661F921B4B54B001ECE82 /* plane7.png */; };
-		1B26623E21B4B550001ECE82 /* road9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661FA21B4B54B001ECE82 /* road9.png */; };
-		1B26623F21B4B550001ECE82 /* tree9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661FB21B4B54B001ECE82 /* tree9.png */; };
-		1B26624021B4B550001ECE82 /* tree11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661FC21B4B54C001ECE82 /* tree11.png */; };
-		1B26624121B4B550001ECE82 /* plane1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661FD21B4B54C001ECE82 /* plane1.png */; };
-		1B26624221B4B550001ECE82 /* cloud2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661FE21B4B54C001ECE82 /* cloud2.png */; };
-		1B26624321B4B550001ECE82 /* plane4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661FF21B4B54C001ECE82 /* plane4.png */; };
-		1B26624421B4B550001ECE82 /* house1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620021B4B54C001ECE82 /* house1.png */; };
-		1B26624521B4B550001ECE82 /* tree8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620121B4B54C001ECE82 /* tree8.png */; };
-		1B26624621B4B550001ECE82 /* tree16.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620221B4B54C001ECE82 /* tree16.png */; };
-		1B26624721B4B550001ECE82 /* plane9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620321B4B54D001ECE82 /* plane9.png */; };
-		1B26624821B4B550001ECE82 /* plane12.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620421B4B54D001ECE82 /* plane12.png */; };
-		1B26624921B4B550001ECE82 /* road12.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620521B4B54D001ECE82 /* road12.png */; };
-		1B26624A21B4B550001ECE82 /* road8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620621B4B54D001ECE82 /* road8.png */; };
-		1B26624B21B4B550001ECE82 /* bird7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620721B4B54D001ECE82 /* bird7.png */; };
-		1B26624C21B4B550001ECE82 /* plane5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620821B4B54D001ECE82 /* plane5.png */; };
-		1B26624D21B4B550001ECE82 /* road3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620921B4B54D001ECE82 /* road3.png */; };
-		1B26624E21B4B550001ECE82 /* tree7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620A21B4B54E001ECE82 /* tree7.png */; };
-		1B26624F21B4B550001ECE82 /* road13.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620B21B4B54E001ECE82 /* road13.png */; };
-		1B26625021B4B550001ECE82 /* road7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620C21B4B54E001ECE82 /* road7.png */; };
-		1B26625121B4B550001ECE82 /* plane13.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620D21B4B54E001ECE82 /* plane13.png */; };
-		1B26625221B4B550001ECE82 /* bird4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620E21B4B54E001ECE82 /* bird4.png */; };
-		1B26625321B4B550001ECE82 /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26620F21B4B54E001ECE82 /* explosion.png */; };
-		1B26625421B4B550001ECE82 /* bird8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26621021B4B54E001ECE82 /* bird8.png */; };
-		1B26625521B4B550001ECE82 /* tree17.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26621121B4B54F001ECE82 /* tree17.png */; };
-		1B26625621B4B550001ECE82 /* tree14.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26621221B4B54F001ECE82 /* tree14.png */; };
-		1B26625721B4B550001ECE82 /* road16.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26621321B4B54F001ECE82 /* road16.png */; };
-		1B26625821B4B550001ECE82 /* bird9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26621421B4B54F001ECE82 /* bird9.png */; };
-		1B26625921B4B550001ECE82 /* road4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26621521B4B54F001ECE82 /* road4.png */; };
-		1B26625A21B4B550001ECE82 /* tree1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26621621B4B54F001ECE82 /* tree1.png */; };
-		1B26625B21B4B550001ECE82 /* tree10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B26621721B4B54F001ECE82 /* tree10.png */; };
-		1B6273B821CAC6DF00B785D8 /* insta.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1B6273B721CAC6DE00B785D8 /* insta.gif */; };
-		1B6273BA21CACD1900B785D8 /* SceneOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6273B921CACD1900B785D8 /* SceneOver.png */; };
 		1B74303F21B844AC003A037A /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74303E21B844AC003A037A /* Plane.swift */; };
-		1BB36E9721C35851009BDF93 /* star coin rotate 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB36E9121C3584F009BDF93 /* star coin rotate 2.png */; };
-		1BB36E9821C35851009BDF93 /* star coin rotate 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB36E9221C35850009BDF93 /* star coin rotate 4.png */; };
-		1BB36E9921C35851009BDF93 /* star coin rotate 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB36E9321C35850009BDF93 /* star coin rotate 3.png */; };
-		1BB36E9A21C35851009BDF93 /* star coin rotate 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB36E9421C35850009BDF93 /* star coin rotate 1.png */; };
-		1BB36E9B21C35851009BDF93 /* star coin rotate 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB36E9521C35850009BDF93 /* star coin rotate 5.png */; };
-		1BB36E9C21C35851009BDF93 /* star coin rotate 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB36E9621C35850009BDF93 /* star coin rotate 6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +110,81 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B22ED0321CC7CF70049D09F /* road3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road3.png; path = Game_CW/Assets.xcassets/road3.png; sourceTree = "<group>"; };
+		1B22ED0421CC7CF70049D09F /* plane12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane12.png; path = Game_CW/Assets.xcassets/plane12.png; sourceTree = "<group>"; };
+		1B22ED0521CC7CF70049D09F /* road8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road8.png; path = Game_CW/Assets.xcassets/road8.png; sourceTree = "<group>"; };
+		1B22ED0621CC7CF70049D09F /* plane11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane11.png; path = Game_CW/Assets.xcassets/plane11.png; sourceTree = "<group>"; };
+		1B22ED0721CC7CF70049D09F /* star coin rotate 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 3.png"; path = "Game_CW/Assets.xcassets/star coin rotate 3.png"; sourceTree = "<group>"; };
+		1B22ED0821CC7CF70049D09F /* bird5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird5.png; path = Game_CW/Assets.xcassets/bird5.png; sourceTree = "<group>"; };
+		1B22ED0921CC7CF80049D09F /* tree13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree13.png; path = Game_CW/Assets.xcassets/tree13.png; sourceTree = "<group>"; };
+		1B22ED0A21CC7CF80049D09F /* tree8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree8.png; path = Game_CW/Assets.xcassets/tree8.png; sourceTree = "<group>"; };
+		1B22ED0B21CC7CF80049D09F /* bird9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird9.png; path = Game_CW/Assets.xcassets/bird9.png; sourceTree = "<group>"; };
+		1B22ED0D21CC7CF80049D09F /* road12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road12.png; path = Game_CW/Assets.xcassets/road12.png; sourceTree = "<group>"; };
+		1B22ED0E21CC7CF80049D09F /* tree16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree16.png; path = Game_CW/Assets.xcassets/tree16.png; sourceTree = "<group>"; };
+		1B22ED0F21CC7CF90049D09F /* tree10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree10.png; path = Game_CW/Assets.xcassets/tree10.png; sourceTree = "<group>"; };
+		1B22ED1021CC7CF90049D09F /* plane2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane2.png; path = Game_CW/Assets.xcassets/plane2.png; sourceTree = "<group>"; };
+		1B22ED1121CC7CF90049D09F /* game_over.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = game_over.jpg; path = Game_CW/Assets.xcassets/game_over.jpg; sourceTree = "<group>"; };
+		1B22ED1221CC7CF90049D09F /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explosion.png; path = Game_CW/Assets.xcassets/explosion.png; sourceTree = "<group>"; };
+		1B22ED1321CC7CF90049D09F /* road10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road10.png; path = Game_CW/Assets.xcassets/road10.png; sourceTree = "<group>"; };
+		1B22ED1421CC7CF90049D09F /* cloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloud2.png; path = Game_CW/Assets.xcassets/cloud2.png; sourceTree = "<group>"; };
+		1B22ED1521CC7CF90049D09F /* star coin rotate 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 4.png"; path = "Game_CW/Assets.xcassets/star coin rotate 4.png"; sourceTree = "<group>"; };
+		1B22ED1621CC7CFA0049D09F /* road2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road2.png; path = Game_CW/Assets.xcassets/road2.png; sourceTree = "<group>"; };
+		1B22ED1721CC7CFA0049D09F /* tree12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree12.png; path = Game_CW/Assets.xcassets/tree12.png; sourceTree = "<group>"; };
+		1B22ED1821CC7CFA0049D09F /* plane1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane1.png; path = Game_CW/Assets.xcassets/plane1.png; sourceTree = "<group>"; };
+		1B22ED1921CC7CFA0049D09F /* plane14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane14.png; path = Game_CW/Assets.xcassets/plane14.png; sourceTree = "<group>"; };
+		1B22ED1A21CC7CFA0049D09F /* road13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road13.png; path = Game_CW/Assets.xcassets/road13.png; sourceTree = "<group>"; };
+		1B22ED1B21CC7CFA0049D09F /* house1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = house1.png; path = Game_CW/Assets.xcassets/house1.png; sourceTree = "<group>"; };
+		1B22ED1C21CC7CFB0049D09F /* tree1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree1.png; path = Game_CW/Assets.xcassets/tree1.png; sourceTree = "<group>"; };
+		1B22ED1D21CC7CFB0049D09F /* tree6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree6.png; path = Game_CW/Assets.xcassets/tree6.png; sourceTree = "<group>"; };
+		1B22ED1E21CC7CFB0049D09F /* road1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road1.png; path = Game_CW/Assets.xcassets/road1.png; sourceTree = "<group>"; };
+		1B22ED1F21CC7CFB0049D09F /* plane3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane3.png; path = Game_CW/Assets.xcassets/plane3.png; sourceTree = "<group>"; };
+		1B22ED2021CC7CFB0049D09F /* SceneOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SceneOver.png; path = Game_CW/Assets.xcassets/SceneOver.png; sourceTree = "<group>"; };
+		1B22ED2121CC7CFB0049D09F /* tree15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree15.png; path = Game_CW/Assets.xcassets/tree15.png; sourceTree = "<group>"; };
+		1B22ED2221CC7CFC0049D09F /* bird10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird10.png; path = Game_CW/Assets.xcassets/bird10.png; sourceTree = "<group>"; };
+		1B22ED2321CC7CFC0049D09F /* road14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road14.png; path = Game_CW/Assets.xcassets/road14.png; sourceTree = "<group>"; };
+		1B22ED2421CC7CFC0049D09F /* road18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road18.png; path = Game_CW/Assets.xcassets/road18.png; sourceTree = "<group>"; };
+		1B22ED2521CC7CFC0049D09F /* road7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road7.png; path = Game_CW/Assets.xcassets/road7.png; sourceTree = "<group>"; };
+		1B22ED2621CC7D070049D09F /* plane4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane4.png; path = Game_CW/Assets.xcassets/plane4.png; sourceTree = "<group>"; };
+		1B22ED2721CC7D080049D09F /* road15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road15.png; path = Game_CW/Assets.xcassets/road15.png; sourceTree = "<group>"; };
+		1B22ED2821CC7D080049D09F /* bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird1.png; path = Game_CW/Assets.xcassets/bird1.png; sourceTree = "<group>"; };
+		1B22ED2921CC7D080049D09F /* road4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road4.png; path = Game_CW/Assets.xcassets/road4.png; sourceTree = "<group>"; };
+		1B22ED2A21CC7D080049D09F /* bird6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird6.png; path = Game_CW/Assets.xcassets/bird6.png; sourceTree = "<group>"; };
+		1B22ED2B21CC7D090049D09F /* coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coin.png; path = Game_CW/Assets.xcassets/coin.png; sourceTree = "<group>"; };
+		1B22ED2C21CC7D090049D09F /* plane15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane15.png; path = Game_CW/Assets.xcassets/plane15.png; sourceTree = "<group>"; };
+		1B22ED2D21CC7D090049D09F /* tree2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree2.png; path = Game_CW/Assets.xcassets/tree2.png; sourceTree = "<group>"; };
+		1B22ED2E21CC7D090049D09F /* road19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road19.png; path = Game_CW/Assets.xcassets/road19.png; sourceTree = "<group>"; };
+		1B22ED2F21CC7D090049D09F /* tree7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree7.png; path = Game_CW/Assets.xcassets/tree7.png; sourceTree = "<group>"; };
+		1B22ED3021CC7D090049D09F /* star coin rotate 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 5.png"; path = "Game_CW/Assets.xcassets/star coin rotate 5.png"; sourceTree = "<group>"; };
+		1B22ED3121CC7D0A0049D09F /* plane8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane8.png; path = Game_CW/Assets.xcassets/plane8.png; sourceTree = "<group>"; };
+		1B22ED3221CC7D0A0049D09F /* road17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road17.png; path = Game_CW/Assets.xcassets/road17.png; sourceTree = "<group>"; };
+		1B22ED3321CC7D0A0049D09F /* road11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road11.png; path = Game_CW/Assets.xcassets/road11.png; sourceTree = "<group>"; };
+		1B22ED3421CC7D0A0049D09F /* star coin rotate 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 1.png"; path = "Game_CW/Assets.xcassets/star coin rotate 1.png"; sourceTree = "<group>"; };
+		1B22ED3521CC7D0B0049D09F /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloud.png; path = Game_CW/Assets.xcassets/cloud.png; sourceTree = "<group>"; };
+		1B22ED3621CC7D0B0049D09F /* star coin rotate 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 2.png"; path = "Game_CW/Assets.xcassets/star coin rotate 2.png"; sourceTree = "<group>"; };
+		1B22ED3721CC7D0B0049D09F /* tree17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree17.png; path = Game_CW/Assets.xcassets/tree17.png; sourceTree = "<group>"; };
+		1B22ED3821CC7D0B0049D09F /* road9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road9.png; path = Game_CW/Assets.xcassets/road9.png; sourceTree = "<group>"; };
+		1B22ED3921CC7D0B0049D09F /* bird8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird8.png; path = Game_CW/Assets.xcassets/bird8.png; sourceTree = "<group>"; };
+		1B22ED3A21CC7D0B0049D09F /* tree9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree9.png; path = Game_CW/Assets.xcassets/tree9.png; sourceTree = "<group>"; };
+		1B22ED3B21CC7D0C0049D09F /* tree3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree3.png; path = Game_CW/Assets.xcassets/tree3.png; sourceTree = "<group>"; };
+		1B22ED3C21CC7D0C0049D09F /* star coin rotate 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 6.png"; path = "Game_CW/Assets.xcassets/star coin rotate 6.png"; sourceTree = "<group>"; };
+		1B22ED3D21CC7D0C0049D09F /* tree5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree5.png; path = Game_CW/Assets.xcassets/tree5.png; sourceTree = "<group>"; };
+		1B22ED3E21CC7D0C0049D09F /* tree14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree14.png; path = Game_CW/Assets.xcassets/tree14.png; sourceTree = "<group>"; };
+		1B22ED3F21CC7D0C0049D09F /* tree11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree11.png; path = Game_CW/Assets.xcassets/tree11.png; sourceTree = "<group>"; };
+		1B22ED4021CC7D0C0049D09F /* plane10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane10.png; path = Game_CW/Assets.xcassets/plane10.png; sourceTree = "<group>"; };
+		1B22ED4121CC7D0C0049D09F /* bird7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird7.png; path = Game_CW/Assets.xcassets/bird7.png; sourceTree = "<group>"; };
+		1B22ED4221CC7D0D0049D09F /* road5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road5.png; path = Game_CW/Assets.xcassets/road5.png; sourceTree = "<group>"; };
+		1B22ED4321CC7D0D0049D09F /* plane9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane9.png; path = Game_CW/Assets.xcassets/plane9.png; sourceTree = "<group>"; };
+		1B22ED4421CC7D0D0049D09F /* bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird2.png; path = Game_CW/Assets.xcassets/bird2.png; sourceTree = "<group>"; };
+		1B22ED4521CC7D0D0049D09F /* plane7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane7.png; path = Game_CW/Assets.xcassets/plane7.png; sourceTree = "<group>"; };
+		1B22ED4621CC7D0D0049D09F /* plane13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane13.png; path = Game_CW/Assets.xcassets/plane13.png; sourceTree = "<group>"; };
+		1B22ED4721CC7D0D0049D09F /* bird4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird4.png; path = Game_CW/Assets.xcassets/bird4.png; sourceTree = "<group>"; };
+		1B22ED4821CC7D0E0049D09F /* bird3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird3.png; path = Game_CW/Assets.xcassets/bird3.png; sourceTree = "<group>"; };
+		1B22ED4921CC7D0E0049D09F /* road6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road6.png; path = Game_CW/Assets.xcassets/road6.png; sourceTree = "<group>"; };
+		1B22ED4A21CC7D0E0049D09F /* road16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road16.png; path = Game_CW/Assets.xcassets/road16.png; sourceTree = "<group>"; };
+		1B22ED4B21CC7D0E0049D09F /* tree4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree4.png; path = Game_CW/Assets.xcassets/tree4.png; sourceTree = "<group>"; };
+		1B22ED4C21CC7D0E0049D09F /* plane5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane5.png; path = Game_CW/Assets.xcassets/plane5.png; sourceTree = "<group>"; };
+		1B22ED4D21CC7D0E0049D09F /* plane6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane6.png; path = Game_CW/Assets.xcassets/plane6.png; sourceTree = "<group>"; };
+		1B22ED4E21CC7D0F0049D09F /* replay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = replay.png; path = Game_CW/Assets.xcassets/replay.png; sourceTree = "<group>"; };
 		1B2661A321B4B397001ECE82 /* Game_CW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game_CW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B2661A621B4B397001ECE82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B2661A821B4B397001ECE82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,83 +198,7 @@
 		1B2661C221B4B398001ECE82 /* Game_CWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Game_CWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B2661C621B4B398001ECE82 /* Game_CWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_CWUITests.swift; sourceTree = "<group>"; };
 		1B2661C821B4B398001ECE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B2661D421B4B545001ECE82 /* plane8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane8.png; path = ../../../Downloads/Images/plane8.png; sourceTree = "<group>"; };
-		1B2661D521B4B545001ECE82 /* road15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road15.png; path = ../../../Downloads/Images/road15.png; sourceTree = "<group>"; };
-		1B2661D621B4B546001ECE82 /* tree2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree2.png; path = ../../../Downloads/Images/tree2.png; sourceTree = "<group>"; };
-		1B2661D721B4B546001ECE82 /* tree15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree15.png; path = ../../../Downloads/Images/tree15.png; sourceTree = "<group>"; };
-		1B2661D821B4B546001ECE82 /* bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird1.png; path = ../../../Downloads/Images/bird1.png; sourceTree = "<group>"; };
-		1B2661D921B4B546001ECE82 /* road2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road2.png; path = ../../../Downloads/Images/road2.png; sourceTree = "<group>"; };
-		1B2661DA21B4B546001ECE82 /* plane2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane2.png; path = ../../../Downloads/Images/plane2.png; sourceTree = "<group>"; };
-		1B2661DB21B4B546001ECE82 /* bird3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird3.png; path = ../../../Downloads/Images/bird3.png; sourceTree = "<group>"; };
-		1B2661DC21B4B546001ECE82 /* plane10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane10.png; path = ../../../Downloads/Images/plane10.png; sourceTree = "<group>"; };
-		1B2661DD21B4B547001ECE82 /* bird5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird5.png; path = ../../../Downloads/Images/bird5.png; sourceTree = "<group>"; };
-		1B2661DE21B4B547001ECE82 /* tree4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree4.png; path = ../../../Downloads/Images/tree4.png; sourceTree = "<group>"; };
-		1B2661DF21B4B547001ECE82 /* tree6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree6.png; path = ../../../Downloads/Images/tree6.png; sourceTree = "<group>"; };
-		1B2661E021B4B547001ECE82 /* bird10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird10.png; path = ../../../Downloads/Images/bird10.png; sourceTree = "<group>"; };
-		1B2661E121B4B547001ECE82 /* road18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road18.png; path = ../../../Downloads/Images/road18.png; sourceTree = "<group>"; };
-		1B2661E221B4B547001ECE82 /* bird6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird6.png; path = ../../../Downloads/Images/bird6.png; sourceTree = "<group>"; };
-		1B2661E321B4B547001ECE82 /* road11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road11.png; path = ../../../Downloads/Images/road11.png; sourceTree = "<group>"; };
-		1B2661E421B4B548001ECE82 /* tree5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree5.png; path = ../../../Downloads/Images/tree5.png; sourceTree = "<group>"; };
-		1B2661E521B4B548001ECE82 /* road6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road6.png; path = ../../../Downloads/Images/road6.png; sourceTree = "<group>"; };
-		1B2661E621B4B548001ECE82 /* plane3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane3.png; path = ../../../Downloads/Images/plane3.png; sourceTree = "<group>"; };
-		1B2661E721B4B548001ECE82 /* road19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road19.png; path = ../../../Downloads/Images/road19.png; sourceTree = "<group>"; };
-		1B2661E821B4B548001ECE82 /* game_over.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = game_over.jpg; path = ../../../Downloads/Images/game_over.jpg; sourceTree = "<group>"; };
-		1B2661E921B4B548001ECE82 /* plane15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane15.png; path = ../../../Downloads/Images/plane15.png; sourceTree = "<group>"; };
-		1B2661EA21B4B548001ECE82 /* road1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road1.png; path = ../../../Downloads/Images/road1.png; sourceTree = "<group>"; };
-		1B2661EB21B4B549001ECE82 /* road17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road17.png; path = ../../../Downloads/Images/road17.png; sourceTree = "<group>"; };
-		1B2661EC21B4B549001ECE82 /* road14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road14.png; path = ../../../Downloads/Images/road14.png; sourceTree = "<group>"; };
-		1B2661ED21B4B549001ECE82 /* plane14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane14.png; path = ../../../Downloads/Images/plane14.png; sourceTree = "<group>"; };
-		1B2661EE21B4B549001ECE82 /* road5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road5.png; path = ../../../Downloads/Images/road5.png; sourceTree = "<group>"; };
-		1B2661EF21B4B549001ECE82 /* bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird2.png; path = ../../../Downloads/Images/bird2.png; sourceTree = "<group>"; };
-		1B2661F021B4B549001ECE82 /* replay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = replay.png; path = ../../../Downloads/Images/replay.png; sourceTree = "<group>"; };
-		1B2661F121B4B549001ECE82 /* plane6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane6.png; path = ../../../Downloads/Images/plane6.png; sourceTree = "<group>"; };
-		1B2661F221B4B54A001ECE82 /* tree13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree13.png; path = ../../../Downloads/Images/tree13.png; sourceTree = "<group>"; };
-		1B2661F321B4B54A001ECE82 /* tree12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree12.png; path = ../../../Downloads/Images/tree12.png; sourceTree = "<group>"; };
-		1B2661F421B4B54A001ECE82 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloud.png; path = ../../../Downloads/Images/cloud.png; sourceTree = "<group>"; };
-		1B2661F521B4B54A001ECE82 /* tree3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree3.png; path = ../../../Downloads/Images/tree3.png; sourceTree = "<group>"; };
-		1B2661F621B4B54A001ECE82 /* road10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road10.png; path = ../../../Downloads/Images/road10.png; sourceTree = "<group>"; };
-		1B2661F721B4B54A001ECE82 /* plane11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane11.png; path = ../../../Downloads/Images/plane11.png; sourceTree = "<group>"; };
-		1B2661F821B4B54A001ECE82 /* coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coin.png; path = ../../../Downloads/Images/coin.png; sourceTree = "<group>"; };
-		1B2661F921B4B54B001ECE82 /* plane7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane7.png; path = ../../../Downloads/Images/plane7.png; sourceTree = "<group>"; };
-		1B2661FA21B4B54B001ECE82 /* road9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road9.png; path = ../../../Downloads/Images/road9.png; sourceTree = "<group>"; };
-		1B2661FB21B4B54B001ECE82 /* tree9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree9.png; path = ../../../Downloads/Images/tree9.png; sourceTree = "<group>"; };
-		1B2661FC21B4B54C001ECE82 /* tree11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree11.png; path = ../../../Downloads/Images/tree11.png; sourceTree = "<group>"; };
-		1B2661FD21B4B54C001ECE82 /* plane1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane1.png; path = ../../../Downloads/Images/plane1.png; sourceTree = "<group>"; };
-		1B2661FE21B4B54C001ECE82 /* cloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloud2.png; path = ../../../Downloads/Images/cloud2.png; sourceTree = "<group>"; };
-		1B2661FF21B4B54C001ECE82 /* plane4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane4.png; path = ../../../Downloads/Images/plane4.png; sourceTree = "<group>"; };
-		1B26620021B4B54C001ECE82 /* house1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = house1.png; path = ../../../Downloads/Images/house1.png; sourceTree = "<group>"; };
-		1B26620121B4B54C001ECE82 /* tree8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree8.png; path = ../../../Downloads/Images/tree8.png; sourceTree = "<group>"; };
-		1B26620221B4B54C001ECE82 /* tree16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree16.png; path = ../../../Downloads/Images/tree16.png; sourceTree = "<group>"; };
-		1B26620321B4B54D001ECE82 /* plane9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane9.png; path = ../../../Downloads/Images/plane9.png; sourceTree = "<group>"; };
-		1B26620421B4B54D001ECE82 /* plane12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane12.png; path = ../../../Downloads/Images/plane12.png; sourceTree = "<group>"; };
-		1B26620521B4B54D001ECE82 /* road12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road12.png; path = ../../../Downloads/Images/road12.png; sourceTree = "<group>"; };
-		1B26620621B4B54D001ECE82 /* road8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road8.png; path = ../../../Downloads/Images/road8.png; sourceTree = "<group>"; };
-		1B26620721B4B54D001ECE82 /* bird7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird7.png; path = ../../../Downloads/Images/bird7.png; sourceTree = "<group>"; };
-		1B26620821B4B54D001ECE82 /* plane5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane5.png; path = ../../../Downloads/Images/plane5.png; sourceTree = "<group>"; };
-		1B26620921B4B54D001ECE82 /* road3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road3.png; path = ../../../Downloads/Images/road3.png; sourceTree = "<group>"; };
-		1B26620A21B4B54E001ECE82 /* tree7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree7.png; path = ../../../Downloads/Images/tree7.png; sourceTree = "<group>"; };
-		1B26620B21B4B54E001ECE82 /* road13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road13.png; path = ../../../Downloads/Images/road13.png; sourceTree = "<group>"; };
-		1B26620C21B4B54E001ECE82 /* road7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road7.png; path = ../../../Downloads/Images/road7.png; sourceTree = "<group>"; };
-		1B26620D21B4B54E001ECE82 /* plane13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane13.png; path = ../../../Downloads/Images/plane13.png; sourceTree = "<group>"; };
-		1B26620E21B4B54E001ECE82 /* bird4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird4.png; path = ../../../Downloads/Images/bird4.png; sourceTree = "<group>"; };
-		1B26620F21B4B54E001ECE82 /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = explosion.png; path = ../../../Downloads/Images/explosion.png; sourceTree = "<group>"; };
-		1B26621021B4B54E001ECE82 /* bird8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird8.png; path = ../../../Downloads/Images/bird8.png; sourceTree = "<group>"; };
-		1B26621121B4B54F001ECE82 /* tree17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree17.png; path = ../../../Downloads/Images/tree17.png; sourceTree = "<group>"; };
-		1B26621221B4B54F001ECE82 /* tree14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree14.png; path = ../../../Downloads/Images/tree14.png; sourceTree = "<group>"; };
-		1B26621321B4B54F001ECE82 /* road16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road16.png; path = ../../../Downloads/Images/road16.png; sourceTree = "<group>"; };
-		1B26621421B4B54F001ECE82 /* bird9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird9.png; path = ../../../Downloads/Images/bird9.png; sourceTree = "<group>"; };
-		1B26621521B4B54F001ECE82 /* road4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road4.png; path = ../../../Downloads/Images/road4.png; sourceTree = "<group>"; };
-		1B26621621B4B54F001ECE82 /* tree1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree1.png; path = ../../../Downloads/Images/tree1.png; sourceTree = "<group>"; };
-		1B26621721B4B54F001ECE82 /* tree10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree10.png; path = ../../../Downloads/Images/tree10.png; sourceTree = "<group>"; };
-		1B6273B721CAC6DE00B785D8 /* insta.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = insta.gif; path = ../../../insta.gif; sourceTree = "<group>"; };
-		1B6273B921CACD1900B785D8 /* SceneOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SceneOver.png; path = ../../../SceneOver.png; sourceTree = "<group>"; };
 		1B74303E21B844AC003A037A /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
-		1BB36E9121C3584F009BDF93 /* star coin rotate 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 2.png"; path = "../../../Downloads/star coin animation Pack/star coin rotate/star coin rotate 2.png"; sourceTree = "<group>"; };
-		1BB36E9221C35850009BDF93 /* star coin rotate 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 4.png"; path = "../../../Downloads/star coin animation Pack/star coin rotate/star coin rotate 4.png"; sourceTree = "<group>"; };
-		1BB36E9321C35850009BDF93 /* star coin rotate 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 3.png"; path = "../../../Downloads/star coin animation Pack/star coin rotate/star coin rotate 3.png"; sourceTree = "<group>"; };
-		1BB36E9421C35850009BDF93 /* star coin rotate 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 1.png"; path = "../../../Downloads/star coin animation Pack/star coin rotate/star coin rotate 1.png"; sourceTree = "<group>"; };
-		1BB36E9521C35850009BDF93 /* star coin rotate 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 5.png"; path = "../../../Downloads/star coin animation Pack/star coin rotate/star coin rotate 5.png"; sourceTree = "<group>"; };
-		1BB36E9621C35850009BDF93 /* star coin rotate 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 6.png"; path = "../../../Downloads/star coin animation Pack/star coin rotate/star coin rotate 6.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,80 +233,81 @@
 				1B2661BA21B4B398001ECE82 /* Game_CWTests */,
 				1B2661C521B4B398001ECE82 /* Game_CWUITests */,
 				1B2661A421B4B397001ECE82 /* Products */,
-				1BB36E9421C35850009BDF93 /* star coin rotate 1.png */,
-				1BB36E9121C3584F009BDF93 /* star coin rotate 2.png */,
-				1BB36E9321C35850009BDF93 /* star coin rotate 3.png */,
-				1BB36E9221C35850009BDF93 /* star coin rotate 4.png */,
-				1BB36E9521C35850009BDF93 /* star coin rotate 5.png */,
-				1BB36E9621C35850009BDF93 /* star coin rotate 6.png */,
-				1B2661D821B4B546001ECE82 /* bird1.png */,
-				1B2661EF21B4B549001ECE82 /* bird2.png */,
-				1B2661DB21B4B546001ECE82 /* bird3.png */,
-				1B26620E21B4B54E001ECE82 /* bird4.png */,
-				1B2661DD21B4B547001ECE82 /* bird5.png */,
-				1B2661E221B4B547001ECE82 /* bird6.png */,
-				1B26620721B4B54D001ECE82 /* bird7.png */,
-				1B26621021B4B54E001ECE82 /* bird8.png */,
-				1B26621421B4B54F001ECE82 /* bird9.png */,
-				1B2661E021B4B547001ECE82 /* bird10.png */,
-				1B2661F421B4B54A001ECE82 /* cloud.png */,
-				1B2661FE21B4B54C001ECE82 /* cloud2.png */,
-				1B2661F821B4B54A001ECE82 /* coin.png */,
-				1B26620F21B4B54E001ECE82 /* explosion.png */,
-				1B2661E821B4B548001ECE82 /* game_over.jpg */,
-				1B26620021B4B54C001ECE82 /* house1.png */,
-				1B2661FD21B4B54C001ECE82 /* plane1.png */,
-				1B2661DA21B4B546001ECE82 /* plane2.png */,
-				1B2661E621B4B548001ECE82 /* plane3.png */,
-				1B2661FF21B4B54C001ECE82 /* plane4.png */,
-				1B26620821B4B54D001ECE82 /* plane5.png */,
-				1B2661F121B4B549001ECE82 /* plane6.png */,
-				1B2661F921B4B54B001ECE82 /* plane7.png */,
-				1B2661D421B4B545001ECE82 /* plane8.png */,
-				1B26620321B4B54D001ECE82 /* plane9.png */,
-				1B2661DC21B4B546001ECE82 /* plane10.png */,
-				1B2661F721B4B54A001ECE82 /* plane11.png */,
-				1B26620421B4B54D001ECE82 /* plane12.png */,
-				1B26620D21B4B54E001ECE82 /* plane13.png */,
-				1B2661ED21B4B549001ECE82 /* plane14.png */,
-				1B2661E921B4B548001ECE82 /* plane15.png */,
-				1B2661F021B4B549001ECE82 /* replay.png */,
-				1B2661EA21B4B548001ECE82 /* road1.png */,
-				1B2661D921B4B546001ECE82 /* road2.png */,
-				1B26620921B4B54D001ECE82 /* road3.png */,
-				1B26621521B4B54F001ECE82 /* road4.png */,
-				1B2661EE21B4B549001ECE82 /* road5.png */,
-				1B2661E521B4B548001ECE82 /* road6.png */,
-				1B26620C21B4B54E001ECE82 /* road7.png */,
-				1B26620621B4B54D001ECE82 /* road8.png */,
-				1B2661FA21B4B54B001ECE82 /* road9.png */,
-				1B2661F621B4B54A001ECE82 /* road10.png */,
-				1B2661E321B4B547001ECE82 /* road11.png */,
-				1B26620521B4B54D001ECE82 /* road12.png */,
-				1B26620B21B4B54E001ECE82 /* road13.png */,
-				1B2661EC21B4B549001ECE82 /* road14.png */,
-				1B2661D521B4B545001ECE82 /* road15.png */,
-				1B26621321B4B54F001ECE82 /* road16.png */,
-				1B2661EB21B4B549001ECE82 /* road17.png */,
-				1B2661E121B4B547001ECE82 /* road18.png */,
-				1B2661E721B4B548001ECE82 /* road19.png */,
-				1B26621621B4B54F001ECE82 /* tree1.png */,
-				1B2661D621B4B546001ECE82 /* tree2.png */,
-				1B2661F521B4B54A001ECE82 /* tree3.png */,
-				1B2661DE21B4B547001ECE82 /* tree4.png */,
-				1B2661E421B4B548001ECE82 /* tree5.png */,
-				1B2661DF21B4B547001ECE82 /* tree6.png */,
-				1B26620A21B4B54E001ECE82 /* tree7.png */,
-				1B26620121B4B54C001ECE82 /* tree8.png */,
-				1B2661FB21B4B54B001ECE82 /* tree9.png */,
-				1B26621721B4B54F001ECE82 /* tree10.png */,
-				1B2661FC21B4B54C001ECE82 /* tree11.png */,
-				1B2661F321B4B54A001ECE82 /* tree12.png */,
-				1B2661F221B4B54A001ECE82 /* tree13.png */,
-				1B26621221B4B54F001ECE82 /* tree14.png */,
-				1B2661D721B4B546001ECE82 /* tree15.png */,
-				1B26620221B4B54C001ECE82 /* tree16.png */,
-				1B26621121B4B54F001ECE82 /* tree17.png */,
+				1B22ED2821CC7D080049D09F /* bird1.png */,
+				1B22ED4421CC7D0D0049D09F /* bird2.png */,
+				1B22ED4821CC7D0E0049D09F /* bird3.png */,
+				1B22ED4721CC7D0D0049D09F /* bird4.png */,
+				1B22ED0821CC7CF70049D09F /* bird5.png */,
+				1B22ED2A21CC7D080049D09F /* bird6.png */,
+				1B22ED4121CC7D0C0049D09F /* bird7.png */,
+				1B22ED3921CC7D0B0049D09F /* bird8.png */,
+				1B22ED0B21CC7CF80049D09F /* bird9.png */,
+				1B22ED2221CC7CFC0049D09F /* bird10.png */,
+				1B22ED3521CC7D0B0049D09F /* cloud.png */,
+				1B22ED1421CC7CF90049D09F /* cloud2.png */,
+				1B22ED2B21CC7D090049D09F /* coin.png */,
+				1B22ED1221CC7CF90049D09F /* explosion.png */,
+				1B22ED1121CC7CF90049D09F /* game_over.jpg */,
+				1B22ED1B21CC7CFA0049D09F /* house1.png */,
+				1B22ED1821CC7CFA0049D09F /* plane1.png */,
+				1B22ED1021CC7CF90049D09F /* plane2.png */,
+				1B22ED1F21CC7CFB0049D09F /* plane3.png */,
+				1B22ED2621CC7D070049D09F /* plane4.png */,
+				1B22ED4C21CC7D0E0049D09F /* plane5.png */,
+				1B22ED4D21CC7D0E0049D09F /* plane6.png */,
+				1B22ED4521CC7D0D0049D09F /* plane7.png */,
+				1B22ED3121CC7D0A0049D09F /* plane8.png */,
+				1B22ED4321CC7D0D0049D09F /* plane9.png */,
+				1B22ED4021CC7D0C0049D09F /* plane10.png */,
+				1B22ED0621CC7CF70049D09F /* plane11.png */,
+				1B22ED0421CC7CF70049D09F /* plane12.png */,
+				1B22ED4621CC7D0D0049D09F /* plane13.png */,
+				1B22ED1921CC7CFA0049D09F /* plane14.png */,
+				1B22ED2C21CC7D090049D09F /* plane15.png */,
+				1B22ED4E21CC7D0F0049D09F /* replay.png */,
+				1B22ED1E21CC7CFB0049D09F /* road1.png */,
+				1B22ED1621CC7CFA0049D09F /* road2.png */,
+				1B22ED0321CC7CF70049D09F /* road3.png */,
+				1B22ED2921CC7D080049D09F /* road4.png */,
+				1B22ED4221CC7D0D0049D09F /* road5.png */,
+				1B22ED4921CC7D0E0049D09F /* road6.png */,
+				1B22ED2521CC7CFC0049D09F /* road7.png */,
+				1B22ED0521CC7CF70049D09F /* road8.png */,
+				1B22ED3821CC7D0B0049D09F /* road9.png */,
+				1B22ED1321CC7CF90049D09F /* road10.png */,
+				1B22ED3321CC7D0A0049D09F /* road11.png */,
+				1B22ED0D21CC7CF80049D09F /* road12.png */,
+				1B22ED1A21CC7CFA0049D09F /* road13.png */,
+				1B22ED2321CC7CFC0049D09F /* road14.png */,
+				1B22ED2721CC7D080049D09F /* road15.png */,
+				1B22ED4A21CC7D0E0049D09F /* road16.png */,
+				1B22ED3221CC7D0A0049D09F /* road17.png */,
+				1B22ED2421CC7CFC0049D09F /* road18.png */,
+				1B22ED2E21CC7D090049D09F /* road19.png */,
+				1B22ED2021CC7CFB0049D09F /* SceneOver.png */,
+				1B22ED3421CC7D0A0049D09F /* star coin rotate 1.png */,
+				1B22ED3621CC7D0B0049D09F /* star coin rotate 2.png */,
+				1B22ED0721CC7CF70049D09F /* star coin rotate 3.png */,
+				1B22ED1521CC7CF90049D09F /* star coin rotate 4.png */,
+				1B22ED3021CC7D090049D09F /* star coin rotate 5.png */,
+				1B22ED3C21CC7D0C0049D09F /* star coin rotate 6.png */,
+				1B22ED1C21CC7CFB0049D09F /* tree1.png */,
+				1B22ED2D21CC7D090049D09F /* tree2.png */,
+				1B22ED3B21CC7D0C0049D09F /* tree3.png */,
+				1B22ED4B21CC7D0E0049D09F /* tree4.png */,
+				1B22ED3D21CC7D0C0049D09F /* tree5.png */,
+				1B22ED1D21CC7CFB0049D09F /* tree6.png */,
+				1B22ED2F21CC7D090049D09F /* tree7.png */,
+				1B22ED0A21CC7CF80049D09F /* tree8.png */,
+				1B22ED3A21CC7D0B0049D09F /* tree9.png */,
+				1B22ED0F21CC7CF90049D09F /* tree10.png */,
+				1B22ED3F21CC7D0C0049D09F /* tree11.png */,
+				1B22ED1721CC7CFA0049D09F /* tree12.png */,
+				1B22ED0921CC7CF80049D09F /* tree13.png */,
+				1B22ED3E21CC7D0C0049D09F /* tree14.png */,
+				1B22ED2121CC7CFB0049D09F /* tree15.png */,
+				1B22ED0E21CC7CF80049D09F /* tree16.png */,
+				1B22ED3721CC7D0B0049D09F /* tree17.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -328,8 +327,6 @@
 				1B2661A621B4B397001ECE82 /* AppDelegate.swift */,
 				1B2661A821B4B397001ECE82 /* ViewController.swift */,
 				1B2661AA21B4B397001ECE82 /* Main.storyboard */,
-				1B6273B921CACD1900B785D8 /* SceneOver.png */,
-				1B6273B721CAC6DE00B785D8 /* insta.gif */,
 				1B74303E21B844AC003A037A /* Plane.swift */,
 				1B2661AD21B4B398001ECE82 /* Assets.xcassets */,
 				1B2661AF21B4B398001ECE82 /* LaunchScreen.storyboard */,
@@ -460,85 +457,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B26623121B4B550001ECE82 /* plane14.png in Resources */,
-				1B26624121B4B550001ECE82 /* plane1.png in Resources */,
-				1B26624421B4B550001ECE82 /* house1.png in Resources */,
-				1B26622F21B4B550001ECE82 /* road17.png in Resources */,
-				1B26622921B4B550001ECE82 /* road6.png in Resources */,
-				1B26625221B4B550001ECE82 /* bird4.png in Resources */,
-				1BB36E9921C35851009BDF93 /* star coin rotate 3.png in Resources */,
-				1B26625621B4B550001ECE82 /* tree14.png in Resources */,
-				1B26624921B4B550001ECE82 /* road12.png in Resources */,
-				1B26621B21B4B550001ECE82 /* tree15.png in Resources */,
-				1B26625921B4B550001ECE82 /* road4.png in Resources */,
-				1B26622521B4B550001ECE82 /* road18.png in Resources */,
-				1B26625821B4B550001ECE82 /* bird9.png in Resources */,
-				1B26623021B4B550001ECE82 /* road14.png in Resources */,
-				1B6273B821CAC6DF00B785D8 /* insta.gif in Resources */,
-				1B26624D21B4B550001ECE82 /* road3.png in Resources */,
-				1B26624321B4B550001ECE82 /* plane4.png in Resources */,
-				1B26625321B4B550001ECE82 /* explosion.png in Resources */,
-				1B26624C21B4B550001ECE82 /* plane5.png in Resources */,
-				1B26621E21B4B550001ECE82 /* plane2.png in Resources */,
-				1B26623321B4B550001ECE82 /* bird2.png in Resources */,
-				1B26625521B4B550001ECE82 /* tree17.png in Resources */,
+				1B22ED8F21CC7D0F0049D09F /* plane9.png in Resources */,
+				1B22ED8621CC7D0F0049D09F /* tree9.png in Resources */,
+				1B22ED7621CC7D0F0049D09F /* bird6.png in Resources */,
+				1B22ED6F21CC7D0F0049D09F /* road14.png in Resources */,
+				1B22ED8A21CC7D0F0049D09F /* tree14.png in Resources */,
+				1B22ED6021CC7D0F0049D09F /* cloud2.png in Resources */,
+				1B22ED8021CC7D0F0049D09F /* star coin rotate 1.png in Resources */,
+				1B22ED5F21CC7D0F0049D09F /* road10.png in Resources */,
+				1B22ED7B21CC7D0F0049D09F /* tree7.png in Resources */,
+				1B22ED9721CC7D0F0049D09F /* tree4.png in Resources */,
+				1B22ED7A21CC7D0F0049D09F /* road19.png in Resources */,
+				1B22ED5221CC7D0F0049D09F /* plane11.png in Resources */,
+				1B22ED7C21CC7D0F0049D09F /* star coin rotate 5.png in Resources */,
+				1B22ED8421CC7D0F0049D09F /* road9.png in Resources */,
+				1B22ED5B21CC7D0F0049D09F /* tree10.png in Resources */,
+				1B22ED9921CC7D0F0049D09F /* plane6.png in Resources */,
+				1B22ED8521CC7D0F0049D09F /* bird8.png in Resources */,
+				1B22ED7421CC7D0F0049D09F /* bird1.png in Resources */,
 				1B2661B121B4B398001ECE82 /* LaunchScreen.storyboard in Resources */,
-				1B26622B21B4B550001ECE82 /* road19.png in Resources */,
-				1B26623F21B4B550001ECE82 /* tree9.png in Resources */,
-				1BB36E9A21C35851009BDF93 /* star coin rotate 1.png in Resources */,
-				1BB36E9821C35851009BDF93 /* star coin rotate 4.png in Resources */,
-				1B26623D21B4B550001ECE82 /* plane7.png in Resources */,
-				1B26623421B4B550001ECE82 /* replay.png in Resources */,
-				1BB36E9C21C35851009BDF93 /* star coin rotate 6.png in Resources */,
-				1B26625421B4B550001ECE82 /* bird8.png in Resources */,
-				1B26621921B4B550001ECE82 /* road15.png in Resources */,
-				1B26622821B4B550001ECE82 /* tree5.png in Resources */,
-				1B26622721B4B550001ECE82 /* road11.png in Resources */,
-				1BB36E9B21C35851009BDF93 /* star coin rotate 5.png in Resources */,
-				1BB36E9721C35851009BDF93 /* star coin rotate 2.png in Resources */,
-				1B26625B21B4B550001ECE82 /* tree10.png in Resources */,
-				1B26622A21B4B550001ECE82 /* plane3.png in Resources */,
-				1B26624721B4B550001ECE82 /* plane9.png in Resources */,
-				1B26624821B4B550001ECE82 /* plane12.png in Resources */,
-				1B26621F21B4B550001ECE82 /* bird3.png in Resources */,
-				1B26621D21B4B550001ECE82 /* road2.png in Resources */,
-				1B26624F21B4B550001ECE82 /* road13.png in Resources */,
-				1B26621A21B4B550001ECE82 /* tree2.png in Resources */,
-				1B26625721B4B550001ECE82 /* road16.png in Resources */,
-				1B26622121B4B550001ECE82 /* bird5.png in Resources */,
-				1B26622321B4B550001ECE82 /* tree6.png in Resources */,
-				1B26622E21B4B550001ECE82 /* road1.png in Resources */,
-				1B26625121B4B550001ECE82 /* plane13.png in Resources */,
-				1B26624621B4B550001ECE82 /* tree16.png in Resources */,
-				1B26624A21B4B550001ECE82 /* road8.png in Resources */,
-				1B26624221B4B550001ECE82 /* cloud2.png in Resources */,
-				1B26621821B4B550001ECE82 /* plane8.png in Resources */,
-				1B26624B21B4B550001ECE82 /* bird7.png in Resources */,
-				1B26622621B4B550001ECE82 /* bird6.png in Resources */,
-				1B26623B21B4B550001ECE82 /* plane11.png in Resources */,
-				1B26623221B4B550001ECE82 /* road5.png in Resources */,
-				1B26622C21B4B550001ECE82 /* game_over.jpg in Resources */,
+				1B22ED7021CC7D0F0049D09F /* road18.png in Resources */,
+				1B22ED7521CC7D0F0049D09F /* road4.png in Resources */,
+				1B22ED9121CC7D0F0049D09F /* plane7.png in Resources */,
+				1B22ED6721CC7D0F0049D09F /* house1.png in Resources */,
+				1B22ED6B21CC7D0F0049D09F /* plane3.png in Resources */,
+				1B22ED9021CC7D0F0049D09F /* bird2.png in Resources */,
+				1B22ED8121CC7D0F0049D09F /* cloud.png in Resources */,
+				1B22ED7921CC7D0F0049D09F /* tree2.png in Resources */,
+				1B22ED9221CC7D0F0049D09F /* plane13.png in Resources */,
+				1B22ED5521CC7D0F0049D09F /* tree13.png in Resources */,
+				1B22ED7121CC7D0F0049D09F /* road7.png in Resources */,
+				1B22ED6121CC7D0F0049D09F /* star coin rotate 4.png in Resources */,
+				1B22ED6321CC7D0F0049D09F /* tree12.png in Resources */,
+				1B22ED6621CC7D0F0049D09F /* road13.png in Resources */,
+				1B22ED7221CC7D0F0049D09F /* plane4.png in Resources */,
+				1B22ED5721CC7D0F0049D09F /* bird9.png in Resources */,
+				1B22ED6421CC7D0F0049D09F /* plane1.png in Resources */,
+				1B22ED5321CC7D0F0049D09F /* star coin rotate 3.png in Resources */,
+				1B22ED7321CC7D0F0049D09F /* road15.png in Resources */,
+				1B22ED6E21CC7D0F0049D09F /* bird10.png in Resources */,
+				1B22ED8221CC7D0F0049D09F /* star coin rotate 2.png in Resources */,
+				1B22ED9521CC7D0F0049D09F /* road6.png in Resources */,
+				1B22ED5D21CC7D0F0049D09F /* game_over.jpg in Resources */,
+				1B22ED5921CC7D0F0049D09F /* road12.png in Resources */,
+				1B22ED9321CC7D0F0049D09F /* bird4.png in Resources */,
+				1B22ED6D21CC7D0F0049D09F /* tree15.png in Resources */,
+				1B22ED4F21CC7D0F0049D09F /* road3.png in Resources */,
+				1B22ED5021CC7D0F0049D09F /* plane12.png in Resources */,
+				1B22ED5621CC7D0F0049D09F /* tree8.png in Resources */,
+				1B22ED8721CC7D0F0049D09F /* tree3.png in Resources */,
+				1B22ED8B21CC7D0F0049D09F /* tree11.png in Resources */,
+				1B22ED7F21CC7D0F0049D09F /* road11.png in Resources */,
+				1B22ED5121CC7D0F0049D09F /* road8.png in Resources */,
+				1B22ED6C21CC7D0F0049D09F /* SceneOver.png in Resources */,
+				1B22ED6A21CC7D0F0049D09F /* road1.png in Resources */,
+				1B22ED5421CC7D0F0049D09F /* bird5.png in Resources */,
 				1B2661AE21B4B398001ECE82 /* Assets.xcassets in Resources */,
-				1B26624E21B4B550001ECE82 /* tree7.png in Resources */,
-				1B26623521B4B550001ECE82 /* plane6.png in Resources */,
-				1B26623821B4B550001ECE82 /* cloud.png in Resources */,
-				1B26624521B4B550001ECE82 /* tree8.png in Resources */,
-				1B26621C21B4B550001ECE82 /* bird1.png in Resources */,
+				1B22ED9A21CC7D0F0049D09F /* replay.png in Resources */,
+				1B22ED7E21CC7D0F0049D09F /* road17.png in Resources */,
 				1B2661AC21B4B397001ECE82 /* Main.storyboard in Resources */,
-				1B26623A21B4B550001ECE82 /* road10.png in Resources */,
-				1B26623E21B4B550001ECE82 /* road9.png in Resources */,
-				1B26622D21B4B550001ECE82 /* plane15.png in Resources */,
-				1B26622221B4B550001ECE82 /* tree4.png in Resources */,
-				1B6273BA21CACD1900B785D8 /* SceneOver.png in Resources */,
-				1B26623921B4B550001ECE82 /* tree3.png in Resources */,
-				1B26623721B4B550001ECE82 /* tree12.png in Resources */,
-				1B26625A21B4B550001ECE82 /* tree1.png in Resources */,
-				1B26623C21B4B550001ECE82 /* coin.png in Resources */,
-				1B26623621B4B550001ECE82 /* tree13.png in Resources */,
-				1B26622021B4B550001ECE82 /* plane10.png in Resources */,
-				1B26625021B4B550001ECE82 /* road7.png in Resources */,
-				1B26622421B4B550001ECE82 /* bird10.png in Resources */,
-				1B26624021B4B550001ECE82 /* tree11.png in Resources */,
+				1B22ED6921CC7D0F0049D09F /* tree6.png in Resources */,
+				1B22ED5A21CC7D0F0049D09F /* tree16.png in Resources */,
+				1B22ED6521CC7D0F0049D09F /* plane14.png in Resources */,
+				1B22ED6221CC7D0F0049D09F /* road2.png in Resources */,
+				1B22ED8921CC7D0F0049D09F /* tree5.png in Resources */,
+				1B22ED8D21CC7D0F0049D09F /* bird7.png in Resources */,
+				1B22ED8321CC7D0F0049D09F /* tree17.png in Resources */,
+				1B22ED9421CC7D0F0049D09F /* bird3.png in Resources */,
+				1B22ED9621CC7D0F0049D09F /* road16.png in Resources */,
+				1B22ED9821CC7D0F0049D09F /* plane5.png in Resources */,
+				1B22ED8E21CC7D0F0049D09F /* road5.png in Resources */,
+				1B22ED7721CC7D0F0049D09F /* coin.png in Resources */,
+				1B22ED5E21CC7D0F0049D09F /* explosion.png in Resources */,
+				1B22ED8C21CC7D0F0049D09F /* plane10.png in Resources */,
+				1B22ED8821CC7D0F0049D09F /* star coin rotate 6.png in Resources */,
+				1B22ED7821CC7D0F0049D09F /* plane15.png in Resources */,
+				1B22ED7D21CC7D0F0049D09F /* plane8.png in Resources */,
+				1B22ED6821CC7D0F0049D09F /* tree1.png in Resources */,
+				1B22ED5C21CC7D0F0049D09F /* plane2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
