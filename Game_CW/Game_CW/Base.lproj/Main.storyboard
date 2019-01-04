@@ -46,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c2c-tC-4j3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1543.1784107946028" y="-1988"/>
+            <point key="canvasLocation" x="-2060" y="-2018"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -74,7 +74,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plane1.png" translatesAutoresizingMaskIntoConstraints="NO" id="ols-8a-g0J" customClass="Plane" customModule="Game_CW" customModuleProvider="target">
-                                <rect key="frame" x="20" y="72" width="107" height="71"/>
+                                <rect key="frame" x="20" y="55" width="127" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Cl-BR-0u2">
@@ -115,6 +115,7 @@
                                             <color key="titleShadowColor" red="1" green="0.70065106440000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
+                                            <action selector="mainScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Te8-2A-tlL"/>
                                             <segue destination="n85-Z0-hnE" kind="presentation" id="2rN-6v-m65"/>
                                         </connections>
                                     </button>
@@ -152,7 +153,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-848.72563718140941" y="-1988"/>
+            <point key="canvasLocation" x="-1341" y="-2018"/>
         </scene>
     </scenes>
     <resources>

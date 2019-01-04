@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0D720621DF7AA400B8AC36 /* Button Clicking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D720521DF7AA400B8AC36 /* Button Clicking.mp3 */; };
 		1B1ABA6C21DEC7B800E6A387 /* MusicHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1ABA6B21DEC7B800E6A387 /* MusicHelper.swift */; };
 		1B1ABA7021DED3BA00E6A387 /* Drama.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B1ABA6E21DED3BA00E6A387 /* Drama.mp3 */; };
 		1B1ABA7221DEDA5700E6A387 /* game-over.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B1ABA7121DEDA5600E6A387 /* game-over.png */; };
@@ -80,7 +81,6 @@
 		1B22ED9721CC7D0F0049D09F /* tree4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4B21CC7D0E0049D09F /* tree4.png */; };
 		1B22ED9821CC7D0F0049D09F /* plane5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4C21CC7D0E0049D09F /* plane5.png */; };
 		1B22ED9921CC7D0F0049D09F /* plane6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4D21CC7D0E0049D09F /* plane6.png */; };
-		1B22ED9A21CC7D0F0049D09F /* replay.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED4E21CC7D0F0049D09F /* replay.png */; };
 		1B2661A721B4B397001ECE82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2661A621B4B397001ECE82 /* AppDelegate.swift */; };
 		1B2661A921B4B397001ECE82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2661A821B4B397001ECE82 /* ViewController.swift */; };
 		1B2661AC21B4B397001ECE82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2661AA21B4B397001ECE82 /* Main.storyboard */; };
@@ -109,6 +109,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B0D720521DF7AA400B8AC36 /* Button Clicking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Button Clicking.mp3"; path = "Game_CW/Assets.xcassets/Button Clicking.mp3"; sourceTree = "<group>"; };
 		1B1ABA6B21DEC7B800E6A387 /* MusicHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicHelper.swift; sourceTree = "<group>"; };
 		1B1ABA6E21DED3BA00E6A387 /* Drama.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Drama.mp3; path = Game_CW/Assets.xcassets/Drama.mp3; sourceTree = "<group>"; };
 		1B1ABA7121DEDA5600E6A387 /* game-over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "game-over.png"; path = "Game_CW/Assets.xcassets/game-over.png"; sourceTree = "<group>"; };
@@ -182,7 +183,6 @@
 		1B22ED4B21CC7D0E0049D09F /* tree4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree4.png; path = Game_CW/Assets.xcassets/tree4.png; sourceTree = "<group>"; };
 		1B22ED4C21CC7D0E0049D09F /* plane5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane5.png; path = Game_CW/Assets.xcassets/plane5.png; sourceTree = "<group>"; };
 		1B22ED4D21CC7D0E0049D09F /* plane6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane6.png; path = Game_CW/Assets.xcassets/plane6.png; sourceTree = "<group>"; };
-		1B22ED4E21CC7D0F0049D09F /* replay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = replay.png; path = Game_CW/Assets.xcassets/replay.png; sourceTree = "<group>"; };
 		1B2661A321B4B397001ECE82 /* Game_CW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game_CW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B2661A621B4B397001ECE82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B2661A821B4B397001ECE82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -233,6 +233,7 @@
 				1B2661A421B4B397001ECE82 /* Products */,
 				1B22ED2821CC7D080049D09F /* bird1.png */,
 				1B1ABA8121DEF3F200E6A387 /* icons8-play-52.png */,
+				1B0D720521DF7AA400B8AC36 /* Button Clicking.mp3 */,
 				1B1ABA7721DEE65E00E6A387 /* start.png */,
 				1B22ED4421CC7D0D0049D09F /* bird2.png */,
 				1B1ABA6E21DED3BA00E6A387 /* Drama.mp3 */,
@@ -262,7 +263,6 @@
 				1B22ED4621CC7D0D0049D09F /* plane13.png */,
 				1B22ED1921CC7CFA0049D09F /* plane14.png */,
 				1B22ED2C21CC7D090049D09F /* plane15.png */,
-				1B22ED4E21CC7D0F0049D09F /* replay.png */,
 				1B22ED1E21CC7CFB0049D09F /* road1.png */,
 				1B22ED1621CC7CFA0049D09F /* road2.png */,
 				1B22ED0321CC7CF70049D09F /* road3.png */,
@@ -479,6 +479,7 @@
 				1B22ED6B21CC7D0F0049D09F /* plane3.png in Resources */,
 				1B22ED9021CC7D0F0049D09F /* bird2.png in Resources */,
 				1B22ED8121CC7D0F0049D09F /* cloud.png in Resources */,
+				1B0D720621DF7AA400B8AC36 /* Button Clicking.mp3 in Resources */,
 				1B22ED7921CC7D0F0049D09F /* tree2.png in Resources */,
 				1B22ED9221CC7D0F0049D09F /* plane13.png in Resources */,
 				1B22ED5521CC7D0F0049D09F /* tree13.png in Resources */,
@@ -508,7 +509,6 @@
 				1B22ED6A21CC7D0F0049D09F /* road1.png in Resources */,
 				1B22ED5421CC7D0F0049D09F /* bird5.png in Resources */,
 				1B2661AE21B4B398001ECE82 /* Assets.xcassets in Resources */,
-				1B22ED9A21CC7D0F0049D09F /* replay.png in Resources */,
 				1B22ED7E21CC7D0F0049D09F /* road17.png in Resources */,
 				1B2661AC21B4B397001ECE82 /* Main.storyboard in Resources */,
 				1B1ABA7021DED3BA00E6A387 /* Drama.mp3 in Resources */,
