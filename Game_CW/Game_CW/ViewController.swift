@@ -137,7 +137,7 @@ class ViewController: UIViewController, subviewDelegate {
                        UIImage(named: "tree17.png")!]
         
         treeImage.image = UIImage.animatedImage(with: imageArray2, duration: 1)
-        treeImage.frame = CGRect(x:0, y:H*(-0.2), width: W*(1), height: H*1)
+        treeImage.frame = CGRect(x:0, y:H*(-0.2), width: W*(1), height: H*(1))
 
         
         imageArray3 =  [UIImage(named: "plane1.png")!,
@@ -228,9 +228,9 @@ class ViewController: UIViewController, subviewDelegate {
                 imageArray5 =  [UIImage(named: "star coin rotate 1.png")!,
                                 UIImage(named: "star coin rotate 2.png")!,
                                 UIImage(named: "star coin rotate 3.png")!,
-                                UIImage(named: "star coin rotate 4.png")!,
-                                UIImage(named: "star coin rotate 5.png")!,
-                                UIImage(named: "star coin rotate 6.png")!]
+                                UIImage(named: "star coin rotate 4.png")!]
+                                //UIImage(named: "star coin rotate 5.png")!,
+                // UIImage(named: "star coin rotate 6.png")! as! [UIImage]
                 
                 
                 //Assign an image to the image view
@@ -254,7 +254,7 @@ class ViewController: UIViewController, subviewDelegate {
                 
                 self.collisionBehaviour.action = {
                     if(self.planeImage.frame.intersects(coinView.frame)){
-                    self.point += 5
+                    self.point += 4
                     coinView.removeFromSuperview()
                 }
                 
@@ -264,7 +264,7 @@ class ViewController: UIViewController, subviewDelegate {
             
         }
         self.end.isHidden = true
-        let when = DispatchTime.now() + 5
+        let when = DispatchTime.now() + 20
         DispatchQueue.main.asyncAfter(deadline: when) {
             self.end.isHidden = false
             self.end.alpha = 1

@@ -52,7 +52,6 @@
 		1B22ED7921CC7D0F0049D09F /* tree2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2D21CC7D090049D09F /* tree2.png */; };
 		1B22ED7A21CC7D0F0049D09F /* road19.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2E21CC7D090049D09F /* road19.png */; };
 		1B22ED7B21CC7D0F0049D09F /* tree7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED2F21CC7D090049D09F /* tree7.png */; };
-		1B22ED7C21CC7D0F0049D09F /* star coin rotate 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3021CC7D090049D09F /* star coin rotate 5.png */; };
 		1B22ED7D21CC7D0F0049D09F /* plane8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3121CC7D0A0049D09F /* plane8.png */; };
 		1B22ED7E21CC7D0F0049D09F /* road17.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3221CC7D0A0049D09F /* road17.png */; };
 		1B22ED7F21CC7D0F0049D09F /* road11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3321CC7D0A0049D09F /* road11.png */; };
@@ -64,7 +63,6 @@
 		1B22ED8521CC7D0F0049D09F /* bird8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3921CC7D0B0049D09F /* bird8.png */; };
 		1B22ED8621CC7D0F0049D09F /* tree9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3A21CC7D0B0049D09F /* tree9.png */; };
 		1B22ED8721CC7D0F0049D09F /* tree3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3B21CC7D0C0049D09F /* tree3.png */; };
-		1B22ED8821CC7D0F0049D09F /* star coin rotate 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3C21CC7D0C0049D09F /* star coin rotate 6.png */; };
 		1B22ED8921CC7D0F0049D09F /* tree5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3D21CC7D0C0049D09F /* tree5.png */; };
 		1B22ED8A21CC7D0F0049D09F /* tree14.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3E21CC7D0C0049D09F /* tree14.png */; };
 		1B22ED8B21CC7D0F0049D09F /* tree11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B22ED3F21CC7D0C0049D09F /* tree11.png */; };
@@ -156,7 +154,6 @@
 		1B22ED2D21CC7D090049D09F /* tree2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree2.png; path = Game_CW/Assets.xcassets/tree2.png; sourceTree = "<group>"; };
 		1B22ED2E21CC7D090049D09F /* road19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road19.png; path = Game_CW/Assets.xcassets/road19.png; sourceTree = "<group>"; };
 		1B22ED2F21CC7D090049D09F /* tree7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree7.png; path = Game_CW/Assets.xcassets/tree7.png; sourceTree = "<group>"; };
-		1B22ED3021CC7D090049D09F /* star coin rotate 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 5.png"; path = "Game_CW/Assets.xcassets/star coin rotate 5.png"; sourceTree = "<group>"; };
 		1B22ED3121CC7D0A0049D09F /* plane8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane8.png; path = Game_CW/Assets.xcassets/plane8.png; sourceTree = "<group>"; };
 		1B22ED3221CC7D0A0049D09F /* road17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road17.png; path = Game_CW/Assets.xcassets/road17.png; sourceTree = "<group>"; };
 		1B22ED3321CC7D0A0049D09F /* road11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road11.png; path = Game_CW/Assets.xcassets/road11.png; sourceTree = "<group>"; };
@@ -168,7 +165,6 @@
 		1B22ED3921CC7D0B0049D09F /* bird8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird8.png; path = Game_CW/Assets.xcassets/bird8.png; sourceTree = "<group>"; };
 		1B22ED3A21CC7D0B0049D09F /* tree9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree9.png; path = Game_CW/Assets.xcassets/tree9.png; sourceTree = "<group>"; };
 		1B22ED3B21CC7D0C0049D09F /* tree3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree3.png; path = Game_CW/Assets.xcassets/tree3.png; sourceTree = "<group>"; };
-		1B22ED3C21CC7D0C0049D09F /* star coin rotate 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star coin rotate 6.png"; path = "Game_CW/Assets.xcassets/star coin rotate 6.png"; sourceTree = "<group>"; };
 		1B22ED3D21CC7D0C0049D09F /* tree5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree5.png; path = Game_CW/Assets.xcassets/tree5.png; sourceTree = "<group>"; };
 		1B22ED3E21CC7D0C0049D09F /* tree14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree14.png; path = Game_CW/Assets.xcassets/tree14.png; sourceTree = "<group>"; };
 		1B22ED3F21CC7D0C0049D09F /* tree11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree11.png; path = Game_CW/Assets.xcassets/tree11.png; sourceTree = "<group>"; };
@@ -290,8 +286,6 @@
 				1B22ED3621CC7D0B0049D09F /* star coin rotate 2.png */,
 				1B22ED0721CC7CF70049D09F /* star coin rotate 3.png */,
 				1B22ED1521CC7CF90049D09F /* star coin rotate 4.png */,
-				1B22ED3021CC7D090049D09F /* star coin rotate 5.png */,
-				1B22ED3C21CC7D0C0049D09F /* star coin rotate 6.png */,
 				1B22ED1C21CC7CFB0049D09F /* tree1.png */,
 				1B22ED2D21CC7D090049D09F /* tree2.png */,
 				1B22ED3B21CC7D0C0049D09F /* tree3.png */,
@@ -473,7 +467,6 @@
 				1B22ED9721CC7D0F0049D09F /* tree4.png in Resources */,
 				1B22ED7A21CC7D0F0049D09F /* road19.png in Resources */,
 				1B22ED5221CC7D0F0049D09F /* plane11.png in Resources */,
-				1B22ED7C21CC7D0F0049D09F /* star coin rotate 5.png in Resources */,
 				1B22ED8421CC7D0F0049D09F /* road9.png in Resources */,
 				1B22ED5B21CC7D0F0049D09F /* tree10.png in Resources */,
 				1B22ED9921CC7D0F0049D09F /* plane6.png in Resources */,
@@ -531,7 +524,6 @@
 				1B22ED9821CC7D0F0049D09F /* plane5.png in Resources */,
 				1B22ED8E21CC7D0F0049D09F /* road5.png in Resources */,
 				1B22ED8C21CC7D0F0049D09F /* plane10.png in Resources */,
-				1B22ED8821CC7D0F0049D09F /* star coin rotate 6.png in Resources */,
 				1B22ED7821CC7D0F0049D09F /* plane15.png in Resources */,
 				1B22ED7D21CC7D0F0049D09F /* plane8.png in Resources */,
 				1B22ED6821CC7D0F0049D09F /* tree1.png in Resources */,
