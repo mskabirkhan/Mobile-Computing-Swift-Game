@@ -32,15 +32,13 @@ class ViewController: UIViewController, subviewDelegate {
     var dynamicBehavior: UIDynamicItemBehavior!
     var collisionBehaviour: UICollisionBehavior!
     var dynamicAnimator: UIDynamicAnimator!
-    //var dynamicItemBehaviour:  UIDynamicItemBehavior!
+    var dynamicItemBehaviour:  UIDynamicItemBehavior!
     var gravityBehavior: UIGravityBehavior!
 
     
     
     let  birdArray = [0, 1, 3, 7, 9, 11, 13, 15, 16]
-    //let  birdArray1 = [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5]
     let  coinArray = [0, 2, 4, 6, 8, 12, 14, 16, 18]
-   // let  coinArray1 = [0, 2.5, 5, 6.5, 8.8, 12.8, 14.8, 16.9, 17.8, 19]
     
     
     @IBOutlet weak var end: UIView!
@@ -50,7 +48,6 @@ class ViewController: UIViewController, subviewDelegate {
     @IBOutlet weak var skyView: UIImageView!
     @IBOutlet weak var Score: UILabel!
     @IBOutlet weak var Dedution: UILabel!
-    @IBOutlet weak var house: UIImageView!
     @IBOutlet weak var over: UIImageView!
     @IBAction func playAgain(_ sender: Any) {
         self.viewDidLoad()
@@ -59,26 +56,7 @@ class ViewController: UIViewController, subviewDelegate {
     var point = 0
     var deduct = 0
     
-    //override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)  {
-        
-      //  let touch: UITouch! = touches.first
-        
-       // location = touch.location(in: self.view)
-        
-       // Plane.center = location
-        
-        
-    //}
-    
-  //  override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
-   //     let touch : UITouch! =  touches.first! as UITouch
-        
-   //     location = touch.location(in: self.view)
-        
-    //    Plane.center = location
-    
-      //  }
+
     
     
     
@@ -186,13 +164,7 @@ class ViewController: UIViewController, subviewDelegate {
         
         //Making flying crows
         //Creating a new UIImageView from scratch
-        
-        
-        //let birdView = UIImageView(image:nil)
-        //let birdView2 = UIImageView(image:nil)
-        //let birdView3 = UIImageView(image:nil)
-        //let birdView4 = UIImageView(image:nil)
-        //var imageArray4: [UIImage]!
+       
         
         for index in 0...8{
             let delay = Double(self.birdArray[index])
@@ -221,23 +193,12 @@ class ViewController: UIViewController, subviewDelegate {
         //Assign the size and position of the image view
         birdView.image = UIImage.animatedImage(with: imageArray4, duration: 1)
         birdView.frame = CGRect(x:self.W, y: CGFloat(arc4random_uniform(UInt32(self.H))), width: self.W*(0.25), height: self.H*(0.25))
-        
-        //birdView2.image = UIImage.animatedImage(with: imageArray4, duration: 1)
-        //birdView2.frame = CGRect(x:500, y: 200, width: 80, height: 100)
-        
-        //birdView3.image = UIImage.animatedImage(with: imageArray4, duration: 1)
-        //birdView3.frame = CGRect(x:400, y: 200, width: 80, height: 100)
-        
-        //birdView4.image = UIImage.animatedImage(with: imageArray4, duration: 1)
-        //birdView4.frame = CGRect(x:300, y: 300, width: 80, height: 100)
+    
         
         
         //Add the image view to the main view
         self.view.addSubview(birdView)
-        //self.view.addSubview(birdView2)
-        //self.view.addSubview(birdView3)
-        //self.view.addSubview(birdView4)
-       
+      
         self.view.bringSubviewToFront(birdView)
                 
         self.dynamicBehavior.addItem(birdView)
@@ -249,21 +210,6 @@ class ViewController: UIViewController, subviewDelegate {
                     }
                     
                 }
-        //self.birdDynamicAnimator = UIDynamicAnimator(referenceView: self.view)
-        //self.birdDynamicItemBehaviour = UIDynamicItemBehavior(items: [birdView])
-        //self.birdDynamicAnimator.addBehavior(self.birdDynamicItemBehaviour)
-    
-        //add one item at a time
-        //self.birdDynamicItemBehaviour.addItem(birdView)
-        //self.birdDynamicItemBehaviour.addItem(birdView2)
-        //self.birdDynamicItemBehaviour.addItem(birdView3)
-        //self.birdDynamicItemBehaviour.addItem(birdView4)
-        
-        
-        //self.birdDynamicItemBehaviour.addLinearVelocity(CGPoint(x: -100, y:0), for: birdView)
-        //self.birdDynamicItemBehaviour.addLinearVelocity(CGPoint(x: -100, y:0), for: birdView2)
-        //self.birdDynamicItemBehaviour.addLinearVelocity(CGPoint(x: -100, y:0), for: birdView3)
-        //self.birdDynamicItemBehaviour.addLinearVelocity(CGPoint(x: -100, y:0), for: birdView4)
         
             }
             
@@ -318,7 +264,7 @@ class ViewController: UIViewController, subviewDelegate {
             
         }
         self.end.isHidden = true
-        let when = DispatchTime.now() + 20
+        let when = DispatchTime.now() + 5
         DispatchQueue.main.asyncAfter(deadline: when) {
             self.end.isHidden = false
             self.end.alpha = 1

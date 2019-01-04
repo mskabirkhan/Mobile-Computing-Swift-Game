@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="n85-Z0-hnE">
     <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,6 +10,44 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="5I4-ui-wQG">
+            <objects>
+                <viewController id="n85-Z0-hnE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jbJ-r5-QJl">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start.png" translatesAutoresizingMaskIntoConstraints="NO" id="HXq-8J-K5Y">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baa-SB-PLN">
+                                <rect key="frame" x="-178.5" y="-112.5" width="1024" height="600"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="53"/>
+                                <state key="normal" title="Play" image="icons8-play-52.png" backgroundImage="tree1.png">
+                                    <color key="titleColor" red="0.91821662599999998" green="0.13007893640000001" blue="0.001298219639" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="toR-Sd-wMu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HXq-8J-K5Y" firstAttribute="leading" secondItem="7zF-Jb-KG9" secondAttribute="leading" id="CXD-51-bbL"/>
+                            <constraint firstItem="7zF-Jb-KG9" firstAttribute="bottom" secondItem="HXq-8J-K5Y" secondAttribute="bottom" id="JRL-N3-TSH"/>
+                            <constraint firstItem="7zF-Jb-KG9" firstAttribute="trailing" secondItem="HXq-8J-K5Y" secondAttribute="trailing" id="e4w-Ub-wfx"/>
+                            <constraint firstItem="HXq-8J-K5Y" firstAttribute="top" secondItem="7zF-Jb-KG9" secondAttribute="top" id="hQS-M8-k5H"/>
+                            <constraint firstItem="baa-SB-PLN" firstAttribute="centerY" secondItem="jbJ-r5-QJl" secondAttribute="centerY" id="hkM-c2-jrO"/>
+                            <constraint firstItem="baa-SB-PLN" firstAttribute="centerX" secondItem="jbJ-r5-QJl" secondAttribute="centerX" id="nax-F6-uNJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7zF-Jb-KG9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c2c-tC-4j3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1543.1784107946028" y="-1988"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -59,12 +97,25 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.78641360998153687" green="0.086966536939144135" blue="0.082223542034626007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
-                                        <state key="normal" title="REPLAY">
+                                        <state key="normal" title="Replay">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" red="1" green="0.70065106440000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="playAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fK8-JJ-k6I"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="u2m-mA-hDd">
+                                        <rect key="frame" x="78" y="90" width="89" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.78641360998153687" green="0.086966536939144135" blue="0.082223542034626007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="18"/>
+                                        <state key="normal" title="Main Screen">
+                                            <color key="titleColor" red="0.90875971499999997" green="0.90875971499999997" blue="0.90875971499999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="1" green="0.70065106440000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="n85-Z0-hnE" kind="presentation" id="2rN-6v-m65"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -101,14 +152,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-976.46176911544239" y="-1522.4000000000001"/>
+            <point key="canvasLocation" x="-848.72563718140941" y="-1988"/>
         </scene>
     </scenes>
     <resources>
         <image name="cloud.png" width="600" height="278"/>
         <image name="game-over.png" width="1920" height="1080"/>
+        <image name="icons8-play-52.png" width="52" height="52"/>
         <image name="plane1.png" width="126" height="74"/>
         <image name="road18.png" width="1024" height="600"/>
+        <image name="start.png" width="642" height="390"/>
         <image name="tree1.png" width="1024" height="600"/>
     </resources>
 </document>

@@ -2,31 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../../../Downloads/goldCoin/goldcoin1.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../Downloads/goldCoin/goldCoin2.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../Downloads/goldCoin/goldCoin3.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../Downloads/goldCoin/goldCoin4.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../Downloads/goldCoin/goldCoin5.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../Downloads/goldCoin/goldCoin6.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../Downloads/goldCoin/goldCoin7.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../Downloads/goldCoin/goldCoin8.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../Downloads/goldCoin/goldCoin9.png">
+      location = "group:../Game_CW/Assets.xcassets/icons8-play-52.png">
    </FileRef>
    <FileRef
       location = "self:">
