@@ -24,7 +24,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baa-SB-PLN">
                                 <rect key="frame" x="-178.5" y="-112.5" width="1024" height="600"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="53"/>
-                                <state key="normal" title="Play" image="icons8-play-52.png" backgroundImage="tree1.png">
+                                <state key="normal" title="Play" image="icons8-play-52.png" backgroundImage="tree10.png">
                                     <color key="titleColor" red="0.91821662599999998" green="0.13007893640000001" blue="0.001298219639" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -172,5 +172,6 @@
         <image name="road18.png" width="1024" height="600"/>
         <image name="start.png" width="642" height="390"/>
         <image name="tree1.png" width="1024" height="600"/>
+        <image name="tree10.png" width="1024" height="600"/>
     </resources>
 </document>
