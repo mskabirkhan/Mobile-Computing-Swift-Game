@@ -19,12 +19,7 @@ class Plane: UIImageView {
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        //_ = touches.first?.location(in: self)
-        //_ = startLocation!.x - startLocation!.x
-        //_ = startLocation!.y - startLocation!.y
-        
-       // self.center = CGPoint(x: 300, y: 0)
-        
+       
         let currentLocation = touches.first?.location(in: self)
         let dx = currentLocation!.x - startLocation!.x
         let dy = currentLocation!.y - startLocation!.y
@@ -34,7 +29,7 @@ class Plane: UIImageView {
         center.x = max(xx, center.x)
         center.x = min(self.superview!.bounds.size.width - xx,  center.x)
         
-        let yy = self.bounds.midX
+        let yy = self.bounds.midY
         center.y = max(yy, center.y)
         center.y = min(self.superview!.bounds.size.width - yy,  center.y)
         
