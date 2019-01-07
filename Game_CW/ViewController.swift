@@ -37,8 +37,10 @@ class ViewController: UIViewController, subviewDelegate {
 
     
     
-    let  birdArray = [0, 1, 3, 7, 9, 11, 13, 15, 16]
+    let  birdArray = [0, 2, 4, 6, 8, 10, 12, 14, 16]
+    let  birdArray2 = [3, 6, 15, 18]
     let  coinArray = [0, 2, 4, 6, 8, 12, 14, 16, 18]
+    
     let play = URL(fileURLWithPath: Bundle.main.path(forResource: "Button Clicking", ofType: "mp3")!)
     var audioPlayer = AVAudioPlayer()
     
@@ -51,6 +53,9 @@ class ViewController: UIViewController, subviewDelegate {
     @IBOutlet weak var Dedution: UILabel!
     @IBOutlet weak var over: UIImageView!
     
+    @IBAction func pause(_ sender: Any) {
+    
+    }
     @IBAction func playAgain(_ sender: AnyObject) {
         self.viewDidLoad()
         
@@ -70,6 +75,8 @@ class ViewController: UIViewController, subviewDelegate {
             // couldn't load file :(
         }
     }
+    
+    
     var point = 0
     var deduct = 0
     
@@ -94,7 +101,6 @@ class ViewController: UIViewController, subviewDelegate {
         collisionBehaviour = UICollisionBehavior(items: [])
         dynamicAnimator.addBehavior(collisionBehaviour)
         collisionBehaviour.addBoundary(withIdentifier: "barrier" as NSCopying, for: UIBezierPath(rect: planeImage.frame))
-
         
         
         // certre of plane after starting games
@@ -129,7 +135,7 @@ class ViewController: UIViewController, subviewDelegate {
                       UIImage(named: "road18.png")!,
                       UIImage(named: "road19.png")!,]
         
-        roadImage.image = UIImage.animatedImage(with: imageArray, duration: 1)
+        roadImage.image = UIImage.animatedImage(with: imageArray, duration: 0.4)
         roadImage.frame = CGRect(x:0, y:0, width: W*1, height: H*1)
         
         //moving road array
@@ -153,35 +159,31 @@ class ViewController: UIViewController, subviewDelegate {
                        UIImage(named: "tree16.png")!,
                        UIImage(named: "tree17.png")!]
         
-        treeImage.image = UIImage.animatedImage(with: imageArray2, duration: 1)
+        treeImage.image = UIImage.animatedImage(with: imageArray2, duration: 0.4)
         treeImage.frame = CGRect(x:0, y:H*(-0.2), width: W*(1), height: H*(1))
 
         
-        imageArray3 =  [UIImage(named: "plane1.png")!,
-                        UIImage(named: "plane2.png")!,
-                        UIImage(named: "plane3.png")!,
-                        UIImage(named: "plane4.png")!,
-                        UIImage(named: "plane5.png")!,
-                        UIImage(named: "plane6.png")!,
-                        UIImage(named: "plane7.png")!,
-                        UIImage(named: "plane8.png")!,
-                        UIImage(named: "plane9.png")!,
-                        UIImage(named: "plane10.png")!,
-                        UIImage(named: "plane11.png")!,
-                        UIImage(named: "plane11.png")!,
-                        UIImage(named: "plane12.png")!,
-                        UIImage(named: "plane13.png")!,
-                        UIImage(named: "plane14.png")!,
-                        UIImage(named: "plane15.png")!]
+        imageArray3 =  [UIImage(named: "Fly (1).png")!,
+                        UIImage(named: "Fly (2).png")!,
+                        UIImage(named: "Fly (3).png")!,
+                        UIImage(named: "Fly (4).png")!,
+                        UIImage(named: "Fly (5).png")!,
+                        UIImage(named: "Fly (6).png")!,
+                        UIImage(named: "Fly (7).png")!]
+                        
         
-        planeImage.image = UIImage.animatedImage(with: imageArray3, duration: 4)
+        planeImage.image = UIImage.animatedImage(with: imageArray3, duration: 0.5)
         planeImage.frame = CGRect(x:0, y:H*(0.3), width: W*(0.2), height: H*(0.2))
 
+     
+        
+        
+        
         
         
         //Making flying crows
         //Creating a new UIImageView from scratch
-       
+       //bird1
         
         for index in 0...8{
             let delay = Double(self.birdArray[index])
@@ -203,13 +205,11 @@ class ViewController: UIViewController, subviewDelegate {
                                 UIImage(named: "bird9.png")!,
                                 UIImage(named: "bird10.png")!]
                 
-            
-        //Assign an image to the image view
+                
         
-        
-        //Assign the size and position of the image view
-        birdView.image = UIImage.animatedImage(with: imageArray4, duration: 1)
-        birdView.frame = CGRect(x:self.W, y: CGFloat(arc4random_uniform(UInt32(self.H))), width: self.W*(0.18), height: self.H*(0.18))
+        //Motion effect and Speed
+        birdView.image = UIImage.animatedImage(with: imageArray4, duration: 0.7)
+        birdView.frame = CGRect(x:self.W, y: CGFloat(arc4random_uniform(UInt32(self.H)-50)), width: self.W*(0.18), height: self.H*(0.18))
     
         
         
@@ -232,6 +232,55 @@ class ViewController: UIViewController, subviewDelegate {
             
         }
         
+        
+        //bird2
+        
+        for index in 0...3{
+            let delay = Double(self.birdArray2[index])
+            let when = DispatchTime.now() + delay
+            
+            DispatchQueue.main.asyncAfter(deadline: when){
+                let birdView = UIImageView(image:nil)
+                var imageArray9: [UIImage]
+                
+                
+                imageArray9 =  [UIImage(named: "bird1.png")!,
+                                UIImage(named: "bird2.png")!,
+                                UIImage(named: "bird3.png")!,
+                                UIImage(named: "bird4.png")!,
+                                UIImage(named: "bird5.png")!,
+                                UIImage(named: "bird6.png")!,
+                                UIImage(named: "bird7.png")!,
+                                UIImage(named: "bird8.png")!]
+                                
+                
+                
+                
+                //Motion effect and Speed
+                birdView.image = UIImage.animatedImage(with: imageArray9, duration: 0.5)
+                birdView.frame = CGRect(x:self.W, y: CGFloat(arc4random_uniform(UInt32(self.H)-50)), width: self.W*(0.10), height: self.H*(0.12))
+                
+                
+                
+                //Add the image view to the main view
+                self.view.addSubview(birdView)
+                self.view.bringSubviewToFront(birdView)
+                
+                self.dynamicBehavior.addItem(birdView)
+                self.dynamicBehavior.addLinearVelocity(CGPoint(x: -200, y:0), for: birdView)
+                self.collisionBehaviour.addItem(birdView)
+                self.collisionBehaviour.action = {
+                    if(self.planeImage.frame.intersects(birdView.frame)){
+                        self.deduct -= 5
+                    }
+                    
+                }
+                
+            }
+            
+            
+        }
+
         for index in 0...8{
             let delay = Double(self.coinArray[index])
             let when = DispatchTime.now() + delay
